@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+  width: 6px;
+  background: #1C1A1C;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #392CE6;
+  border-radius: 10px;
+}
+::selection {
+    background: #333133;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 639px) {
+.t-name_xl {
+font-size: 18px !important;
+line-height: 1.2;
+}
+.t-descr_xs {
+font-size: 16px !important;
+line-height: 1.5;
+}
+}
+
+@media screen and (max-width: 479px) {
+.t585__accordion {
+    width: 310px !important;
+}
+.t-col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 639px) {
+.t585__accordion {
+    width: 460px !important;
+}
+.t-col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
+
+
+.t-popup__container {
+border-radius: 12px 12px 12px 12px;
+}
+.t-popup__container,
+.t1014__wrapper {
+border-radius: 12px 12px 12px 12px;
+}
