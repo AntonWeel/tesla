@@ -1,0 +1,3026 @@
+body, html{
+    margin:0;
+    font-size: 16px;
+    font-family: margin-mvb, sans-serif;
+}
+ul, ol{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+input:focus, button:focus, textarea:focus{
+    outline: none;
+}
+img{
+    max-width: 100%;
+}
+a:hover,a:focus{
+    text-decoration: none;
+}
+body{
+background-color: #000;
+}
+@media(min-width: 1200px){
+.container{
+max-width: 1140px;
+}
+}
+.navbar-d {
+    padding: 1rem 4rem;
+}
+.navbar-d .d-flex{
+align-items: center;
+}
+.logo{
+max-width: 11rem;
+}
+.menu-btn{
+max-width: 4rem;
+cursor: pointer;
+}
+.nav-menu{
+background-color: #fff;
+text-align: center;
+padding: 2rem 1rem;
+position: absolute;
+left:0;
+top:6rem;
+width: 100%;
+}
+.nav-menu li a{
+font-size: 1.1rem;
+text-decoration: none;
+color: #000;
+}
+.nav-menu li a:hover{
+text-decoration: underline;
+}
+.nav-menu li{
+margin-bottom: 1rem;
+}
+.nav-menu li:last-child{
+margin-bottom: 0;
+}
+.navbar-d .container{
+position: relative;
+}
+.hero-sec{
+    background-image: url(../images/bg.png);
+}
+.hero-sec{
+min-height: 48vw;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 5rem 0;
+display: flex;
+align-items: center;
+}
+.hero-sec-inner{
+text-align: center;
+margin-right: 4rem;
+}
+.hero-sec-inner{
+font-size: 1.2vw;
+}
+.hero-sec-inner h1 {
+    color: #fff;
+    font-size: 5em;
+    line-height: .8;
+    font-weight: 800;
+}
+.hero-sec-inner h1 span{
+font-size: 1.41em;
+  background: linear-gradient(to bottom, #c3ffeb 45%, #fff 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+.hero-sec-inner h4 {
+    color: #fff;
+    font-size: 2.6em;
+    font-weight: 700;
+}
+.hero-sec-inner p{
+color: #fff;
+font-size: 1.34em;
+line-height: 1;
+text-align: justify;
+text-align-last: justify;
+letter-spacing: .2em;
+padding: 0 .6em;
+}
+.hero-sec-inner button {
+    color: #fff;
+    border: 0;
+    border-radius: 0.3em;
+    background: linear-gradient(#009629, #00b139);
+    font-size: 1.6em;
+    padding: 0.3em 1em;
+    font-weight: 700;
+}
+.hero-sec-inner button:hover{
+   background: linear-gradient(#00b139, #009629); 
+}
+.step1-col{
+color: #fff;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.step-sec{
+padding: 1.2rem 0;
+}
+.step-sec-inner{
+width: 63%;
+}
+.step1-col .no-span{
+display: inline-block;
+background: linear-gradient(#009629, #00b139);
+width: 3.4rem;
+height: 3.4rem;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+border: 4px solid #807e7e;
+font-size: 2.4rem;
+font-weight: 800;
+padding-bottom:.2rem;
+position: relative;
+z-index:1;
+}
+.step-sec-inner{
+position: relative;
+}
+.step-sec-inner:after{
+position: absolute;
+content:"";
+height: 4px;
+width: 82%;
+left:10%;
+top: 1.6rem;
+background-color: #807e7e;
+}
+.step1-col p{
+margin:0;
+text-transform: uppercase;
+line-height: 1;
+font-weight: 300;
+color: #c3c1c1;
+font-size: 1.1rem;
+}
+.step1-col p span{
+font-weight: 700;
+color: #fff;
+}
+.step1-col p a{
+color: #fff;
+text-decoration: none;
+font-size: .7rem;
+border: 1px solid #00a331;
+padding: .1rem 1rem;
+display: inline-block;
+border-radius: .2rem;
+}
+.hero-sec-inner h1 span img{
+position: absolute;
+width: 5vw;
+right: -1.9vw;
+}
+.d-btn{
+color: #fff;
+    border: 0;
+    border-radius: 0.3vw;
+    background: linear-gradient(#009629, #00b139);
+    font-size: 2rem;
+    padding: .1rem 1.3rem;
+    font-weight: 700;
+padding-bottom: .2rem;
+}
+.d-btn:hover{
+background: linear-gradient(#00b139, #009629);
+}
+.step-sec-inner-btn{
+display: flex;
+align-items: center;
+padding-right: 3rem;
+}
+.slider-sec{
+    background-image: url(../images/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.slick-prev{
+    background-image: url(../images/left-arrow.png);
+}
+.slick-next{
+    background-image: url(../images/right-arrow.png);
+}
+.slider-d{
+padding: 0 3rem;
+}
+.slider-sec{
+padding: 3rem 0;
+}
+.slick-arrow{
+position: absolute;
+left: 0;
+border:0;
+font-size: 0;
+padding:0;
+width: 2rem;
+height: 3.2rem;
+background-size: 100% 100%;
+top: calc(40% - 2rem);
+background-color: transparent;
+}
+.slick-arrow.slick-next{
+left: initial;
+right:0;
+}
+.slider-inner{
+text-align: center;
+padding: 0 0rem;
+}
+.slider-inner img{
+height: 25rem;
+margin: auto;
+margin-bottom: 1.5rem;
+}
+.slider-inner h4{
+font-size: 2.3rem;
+font-weight: 800;
+line-height: .9;
+margin-bottom: .5rem;
+max-width: 25rem;
+margin-left: auto;
+margin-right: auto;
+}
+.slider-inner p{
+max-width: 12rem;
+font-size: 1.2rem;
+line-height: 1.2;
+margin: auto;
+margin-bottom: 0;
+}
+.certified-btn{
+background-color: transparent;
+font-size: 1.9rem;
+font-weight: 800;
+color: #00b139;
+border: 2px solid #00b139;
+border-radius: .5rem;
+padding: .2rem 1rem;
+margin-top: -1.4rem;
+}
+.slider-inner h5 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: .9;
+    margin-bottom: 0.5rem;
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bitcoin-img{
+max-width: 6rem;
+}
+.footer{
+padding: 1rem 0;
+}
+.footer p {
+color: #fff;
+font-size: .8rem;
+font-weight: 400;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+padding: 0 1rem;
+margin:0;
+}
+.footer-icons ul{
+display: flex;
+align-items: center;
+gap: 2.2rem;
+margin-right: -2rem;
+}
+.footer-icons ul li img{
+max-width: 2.6rem;
+max-height: 1.9rem;
+}
+.footer-icons ul li:first-child img{
+max-width: 3.2rem;
+max-height: 2.8rem;
+}
+.nav-menu{
+background-color: #000;
+width: 16rem;
+position: fixed;
+top:0;
+bottom:0;
+right:-16rem;
+left: initial;
+padding-top: 7rem;
+z-index:99999;
+padding-left: 0 !important;
+padding-right: 0 !important;
+transition: all .3s ease;
+}
+.nav-menu.open{
+right:0;
+}
+.nav-menu .d-btn{
+font-size: 1.3rem;
+line-height: 1.1;
+padding: .8rem 1.5rem;
+}
+.menu-btn{
+z-index: 999999;
+}
+.nav-menu li{
+display: flex;
+}
+.nav-menu li a{
+color: #ffff;
+text-transform: uppercase;
+width: 100%;
+padding: .9rem 1rem;
+
+margin-left: 0;
+}
+.nav-menu li a:hover{
+background: #00b038;
+text-decoration: none;
+}
+.nav-menu ul{
+margin-top: 1.5rem;
+}
+.nav-menu li{
+text-align: left;
+margin-bottom: .3rem;
+}
+
+.main-wrapper .logo {
+    max-width: 20rem;
+}
+.main-wrapper .navbar-d{
+padding-left: 10rem;
+}
+.gfx-25-hero {
+    background-image: url(../images/bg-25.png);
+    background-size: cover;
+}
+.gfx-25-hero{
+min-height: 64vw;
+background-position: 50% 0;
+position: relative;
+overflow: hidden;
+}
+.gfx-25-hero:after{
+position: absolute;
+content:"";
+bottom:0;
+left:-5%;
+width: 110%;
+height: 15%;
+background: linear-gradient(to top, #fff 45%, rgba(255,255,255,0.4));
+filter: blur(13px);
+bottom: -2%;
+}
+.gfx-25-sele-cir{
+    background-image: url(../images/tab-img-25.png);
+}
+.gfx-25-sele-col{
+    background-image: url(../images/icon1-25.png);
+}
+.gfx-25-sele-col:hover,
+.gfx-25-sele-col.active{
+    background-image: url(../images/icon2-25.png);
+}
+.gfx-25-sele-col:after {
+    position: absolute;
+    content: "";
+    background-image: url(../images/star-25.png);
+    width: 1.2em;
+    height: 1.5em;
+    background-size: 100% 100%;
+    right: -10%;
+    top: -10%;
+    display: none;
+}
+.gfx-25-sele-cir p.active{
+    display: block !important;
+}
+.gfx-25-sele-col:hover:after,
+.gfx-25-sele-col.active:after{
+    display: block;
+}
+.gfx-25-hero{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.gfx-25-hero .container-fluid,
+.gfx-25-hero .container{
+position: relative;
+z-index:1;
+}
+.gfx-25-hero .container-fluid {
+font-size: 1.2rem;
+}
+.gfx-25-hero-div {
+    max-width: 24em;
+    margin-left: 5em;
+    color: #fff;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+.gfx-25-hero-div h1{
+text-transform: uppercase;
+font-weight: 500;
+font-size: 1.7em;
+text-shadow: 0 2px 2px rgba(0,0,0,1);
+}
+.gfx-25-hero-div h1 span{
+font-weight: 800;
+}
+.gfx-25-sele{
+width: 95%;
+margin-left: 2.5%;
+position: relative;
+}
+.gfx-25-sele-cir{
+background-size: 100% 100%;
+width: 20em;
+height: 20em;
+margin: auto;
+display: flex;
+align-items: center;
+padding: 2.3em;
+}
+.gfx-25-sele-cir p{
+font-weight: 800;
+font-size: 1.8em;
+text-shadow: 0 2px 2px rgba(0,0,0,1);
+line-height: 1.2;
+margin:0;
+}
+.gfx-25-sele-col{
+position: absolute;
+height: 23.5%;
+width: 20.5%;
+background-size: 100% 100%;
+padding: 6.7%;
+padding-bottom: 9%;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+.gfx-25-sele-col img{
+max-height: 100%;
+}
+.gfx-25-sele-col1{
+left: -10%;
+bottom: 25%;
+}
+.gfx-25-sele-col2{
+left:2%;
+bottom: -2%;
+}
+.gfx-25-sele-col3{
+left:23%;
+bottom: -19%;
+}
+.gfx-25-sele-col4{
+left:53%;
+bottom: -19%;
+}
+.gfx-25-sele-col5{
+left:78%;
+bottom: -2%;
+}
+.gfx-25-sele-col6{
+left:89.5%;
+bottom: 25%;
+}
+.gfx-25-sele-col1:after{
+right: -60%;
+top: 5%;
+}
+.gfx-25-sele-col2:after{
+right: -50%;
+top: -37%;
+}
+.gfx-25-sele-col3:after{
+right: -10%;
+top: -75%;
+}
+.gfx-25-sele-col4:after{
+right: 60%;
+top: -75%;
+}
+.gfx-25-sele-col5:after{
+right: 120%;
+top: -43%;
+}
+.gfx-25-sele-col6:after{
+right: 135%;
+top: 3%;
+}
+.gfx-25-hero-inner1{
+text-align: center;
+margin-bottom: 4rem;
+}
+.gfx-25-hero-inner1 .d-btn{
+font-size: 2.5rem;
+padding: 0.2rem 2.5rem;
+padding-bottom: .5rem;
+}
+.gfx-25-hero{
+padding-bottom: 3rem;
+}
+.gfx-25-hero-imgs{
+text-align: center;
+}
+.gfx-25-hero-imgs img{
+max-width: 90%;
+}
+.gfx-25-sec1-inner{
+padding: 0 1.5rem;
+border-right: 1px solid;
+height: 100%;
+}
+.gfx-25-sec1{
+padding: 4rem 0;
+}
+.gfx-25-sec1 .col-12:last-child .gfx-25-sec1-inner{
+padding-right: 0;
+border:0;
+}
+.gfx-25-sec1-inner h3{
+color: #fff;
+font-weight: 600;
+font-size: 1.5rem;
+margin-bottom: 1rem;
+}
+.gfx-25-sec1-inner2 .d-flex div{
+color: #fff;
+font-size: 1.4rem;
+font-weight: 700;
+width: 3.5rem;
+height: 3.5rem;
+border: .32rem solid #fff;
+border-radius: 50%;
+margin-right: .5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.gfx-25-sec1-inner2 p{
+width: calc(100% - 4rem);
+font-size: .7rem;
+line-height: 1.2;
+color: #fff;
+}
+@media(min-width: 1200px){
+.gfx-25-sec1 .container{
+max-width: 1320px;
+}
+}
+.gfx-25-sec1-inner3{
+padding-left: 4rem;
+}
+.gfx-25-sec1-inner3 p{
+color: #fff;
+}
+.gfx-25-sec1-inner ul li{
+color: #fff;
+margin: 0 1rem;
+}
+.gfx-25-sec1-inner ul li:first-child{
+margin-left:0;
+}
+.gfx-25-sec1-inner ul li a{
+color: #fff;
+font-size: 1.2rem;
+}
+.gfx-25-sec1-inner4{
+padding-left: 1rem;
+}
+.gfx-25-sec1-inner3 p a{
+color: #fff;
+text-decoration: none;
+}
+.gfx-25-sec1-inner4 img{
+width: 6rem;
+}
+.gfx-25-sec1-inner4 div:last-child{
+width: calc(100% - 3rem);
+}
+.gfx-25-sec1-inner h2{
+color: #fff;
+font-weight: 600;
+font-size: 2.4rem;
+line-height: 1;
+margin-bottom: 1.5rem;
+}
+.gfx-25-sec1-inner p{
+color: #fff;
+font-size: .8rem;
+}
+.gfx-25-sec2{
+background-color: #cecece;
+text-align: center;
+padding: 2rem 0;
+}
+.gfx-25-sec2-social{
+justify-content: center;
+align-items: center;
+}
+.gfx-25-sec2-social li{
+margin: 0 .8rem;
+}
+.gfx-25-sec2-social li img{
+max-width: 7rem;
+max-height: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*gfx-6717 css*/
+.gfx-17-sec1{
+    position: relative;
+}
+.gfx-17-sec1:after{
+    position: absolute;
+    content: "";
+    left:0;
+    bottom:-16vw;
+    right:0;
+    top:0;
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-17-layer.png);
+    background-size: cover;
+    background-position: 50% 0;
+}
+.gfx-17-sec1-l{
+position: relative;
+}
+.gfx-17-sec1-l img{
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+}
+.gfx-17-sec1 .container-fluid .gfx-17-sec1-r, .gfx-17-sec1-inner1{
+position: relative;
+z-index:1;
+}
+.gfx-17-sec1{
+font-size: 1vw;
+}
+.gfx-17-sec1-inner{
+max-width: 32em;
+margin-right: 15em;
+text-align: center;
+margin-top: 8em;
+margin-bottom: 15em;
+}
+.gfx-17-sec1-inner h1{
+color: #fff;
+font-weight: 800;
+text-transform: uppercase;
+font-size: 2.2em;
+line-height: 1.1;
+margin-bottom: .2em;
+text-shadow: 0 2px 2px rgba(0,0,0,1)
+}
+.gfx-17-sec1-inner p{
+color: #fff;
+font-size: 1.28em;
+padding: 0 1em;
+line-height: 1.2;
+margin-bottom: .4em;
+text-shadow: 0 2px 2px rgba(0,0,0,1)
+}
+.gfx-17-sec1-inner h4{
+color: #fff;
+font-weight: 800;
+text-transform: uppercase;
+font-size: 1.7em;
+margin-bottom: .6em;
+text-shadow: 0 2px 2px rgba(0,0,0,1)
+}
+.gfx-17-sec1-inner .d-btn{
+box-shadow: 0 2px 3px rgba(0,0,0,1);
+    background: linear-gradient(#255b36, #4bac4b);
+border: .05em solid #59ca56;
+border-radius: 0.2em;
+font-size: 1.8em;
+    padding: 0.1em .6em;
+    padding-bottom: 0.2em;
+}
+.gfx-17-sec1-inner1 h3{
+text-align: center;
+color: #fff;
+font-weight: 800;
+font-size: 1.9em;
+margin-bottom: .4em;
+text-shadow: 0 2px 2px rgba(0,0,0,1)
+}
+.gfx-17-slider{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-17-slider.png);
+}
+.gfx-17-slider-inner:after{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-17-line.png);
+}
+.gfx-17-slider{
+background-size: 100% 100%;
+}
+.gfx-17-slider:after,
+.gfx-17-slider:before{
+position: absolute;
+content:"";
+left:-2%;
+width: 26%;
+top:2%;
+bottom:0;
+background: linear-gradient(to right,  #000 10%, rgba(0,0,0,0) 80%);
+filter: blur(10px);
+z-index:1;
+}
+.gfx-17-slider:before{
+left: initial;
+right: -2%;
+bottom:0;
+background: linear-gradient(to left, #000 10%, rgba(0,0,0,0) 80%);
+}
+.gfx-17-slider .slick-list{
+padding: 0 15rem;
+}
+.gfx-17-slider-inner{
+padding: 0rem 2.5rem;
+padding-bottom: 1rem;
+padding-top: 1rem;
+position: relative;
+}
+.gfx-17-slider-inner:after{
+top:1rem;
+bottom:1rem;
+right:0;
+width: 1.8rem;
+position: absolute;
+content:"";
+background-size: 100% 100%;
+}
+.gfx-17-slider-inner img{
+height: 10rem;
+margin: auto;
+margin-bottom: 1rem;
+}
+.gfx-17-slider-inner p{
+color: #fff;
+text-align: center;
+}
+.gfx-17-slider .slick-arrow{
+    position: absolute;
+    left:0;
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-17-arrow-l.png);
+}
+.gfx-17-slider .slick-arrow.slick-next{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-17-arrow-r.png);
+}
+.gfx-17-slider .slick-arrow{
+z-index:9;
+left:-1.5rem;
+top: calc(50% - 1rem);
+width: 1.8rem;
+height: 2.2rem;
+}
+.gfx-17-slider .slick-arrow.slick-next{
+right:-1.5rem;
+left: initial;
+}
+.gfx-17-slider-inner p{
+text-align: justify;
+font-size: 1.2rem;
+line-height: 1.2;
+text-align-last: center;
+}
+.gfx-17-sec3{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-17-layer1.png);
+    background-size: 100% 100%;
+}
+.gfx-17-sec3{
+padding: 3rem 0;
+padding-bottom: 8vw;
+text-align: center;
+}
+.gfx-17-sec1-inner .d-btn:hover{
+    background: linear-gradient(#4bac4b, #255b36);
+}
+.gfx-17-sec3 .d-btn{
+position: relative;
+    background: linear-gradient(#255b36, #4bac4b);
+    border: 0.05em solid #59ca56;
+line-height: 1;
+padding-top: .3rem;
+padding-bottom: .5rem;
+text-transform: uppercase;
+font-size: 1.6rem;
+padding-left: .6rem;
+padding-right: .6rem;
+box-shadow: 3px 23px 28px 20px #000;
+font-weight: 500;
+}
+.gfx-17-sec3 .d-btn b{
+font-weight: 800;
+}
+.gfx-17-sec3 .d-btn:hover{
+background: linear-gradient(#4bac4b, #255b36);
+}
+.gfx-6717 .footer ul li a{
+font-size: 2.5rem;
+color: #fff;
+}
+.gfx-6717 .footer ul li{
+margin: 0 .5rem;
+margin-bottom: .5rem;
+}
+.gfx-6717 .navbar-d{
+padding-left: 12vw;
+}
+
+.main-wrapper1 .hero-sec{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-28-main-img.png);
+}
+.main-wrapper1 .hero-sec-inner h6{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-28-text-bg.png);
+}
+.main-wrapper1 .hero-sec .container{
+max-width: calc(100% - 4rem);
+}
+.main-wrapper1 .hero-sec-inner{
+margin-right: auto;
+margin-left:10vw;
+margin-top: -1vw;
+font-size: 1.3vw;
+}
+.main-wrapper1 .hero-sec-inner h5{
+text-align: left;
+color: #fff;
+font-size: 2.1em;
+padding-left: .1em;
+line-height: .5;
+}
+.main-wrapper1 .hero-sec-inner h1{
+font-size: 7em;
+}
+.main-wrapper1 .hero-sec-inner h4{
+font-size: 2.75em;
+background: -webkit-linear-gradient( #dedeec 40%, #ffffff 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-weight: 800;
+position: relative;
+filter:drop-shadow(1px -2px 1px #f588f9);
+margin-bottom:0;
+}
+.main-wrapper1 .hero-sec-inner p{
+font-size: 2.1em;
+padding:0;
+margin-bottom: 0.2em;
+}
+.main-wrapper1 .hero-sec-inner h6{
+color: #fff;
+font-size: 1.6em;
+font-weight: 400;
+background-size: 100% 100%;
+margin-bottom: 1.5em;
+}
+.main-wrapper1 .hero-sec-inner h6 span{
+font-weight: 600;
+}
+.main-wrapper1 .navbar-d p{
+color: #fff;
+font-size: 2.3vw;
+}
+.main-wrapper1 .navbar-d .d-btn{
+text-transform: uppercase;
+font-size: 1rem;
+line-height: 1;
+padding: .5rem 1rem;
+margin-left: 1rem;
+font-weight: 600;
+border: 2px solid #00b139;
+}
+.main-wrapper1 .navbar-d .d-btn span{
+font-size: 1.45rem;
+font-weight: 700;
+}
+.main-wrapper1 .navbar-d a:first-child .d-btn{
+border: 2px solid #00b139;
+background: none;
+}
+.main-wrapper1 .navbar-d a:first-child .d-btn:hover{
+    background: linear-gradient(#00b139, #009629);
+}
+.main-wrapper1 .step-sec-inner {
+    width: 85%;
+margin: auto;
+}
+.main-wrapper1 .step1-col .no-span{
+width: 4.4rem;
+    height: 4.4rem;
+}
+.main-wrapper1 .step-sec-inner:after{
+top: 2rem;
+}
+.main-wrapper1 .step1-col p{
+font-size: 1.3rem;
+padding-top: .2rem;
+}
+.main-wrapper1 .slider-sec .slider-sec-title h2{
+text-align: center;
+font-size: 2.6rem;
+position: relative;
+margin-bottom: 2rem;
+}
+.main-wrapper1 .slider-sec{
+padding-bottom: 4rem;
+}
+.main-wrapper1 .slider-sec .slider-sec-title h2 span{
+font-weight: 700;
+position: relative;
+}
+.main-wrapper1 .slider-sec .slider-sec-title h2 span:after{
+position: absolute;
+content:"";
+width: .3rem;
+top:.7rem;
+bottom:.5rem;
+left:-1.3rem;
+background-color: #00b139
+}
+.gfx-28-col{
+border-radius: 1rem;
+border: 1px solid #fff;
+padding: 1rem 1.5rem;
+width: 95%;
+margin: auto;
+box-shadow: inset 0 0 10px rgba(0,0,0,.05);
+text-align: center;
+transition: all .3s ease;
+}
+.gfx-28-col:hover{
+border-color: #00b139
+}
+.gfx-28-col h2{
+font-size: 2.5rem;
+text-align: center;
+font-weight: 700;
+line-height: 1.1;
+min-height: 5.7rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.gfx-28-col h2 img{
+width: 5.5rem;
+position: relative;
+left: -.5rem;
+top: .2rem;
+}
+.gfx-28-col p{
+font-size: 1.1rem;
+text-align: center;
+padding: 0 1rem;
+line-height: 1.2;
+margin-bottom: 1.5rem;
+}
+.gfx-28-col button{
+width: 12rem;
+font-size: 1.25rem;
+padding: .3rem ;
+margin: auto;
+margin-bottom: .5rem;
+}
+.gfx-28-footer{
+display: flex;
+}
+.gfx-28-footer img{
+max-width: initial;
+height: 6rem;
+margin-right: 3rem;
+}
+.main-wrapper1 .footer{
+padding: 3rem 0;
+}
+.main-wrapper1 .footer .container{
+max-width: 900px;
+}
+
+
+
+
+
+
+
+/*gfx-6729 css*/
+.gfx-25-hero.gfx-29-hero{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-29-bg.png);
+}
+.gfx-29-hero:after{
+display: none !important;
+}
+.gfx-25-hero.gfx-29-hero{
+min-height: 49vw;
+padding-bottom: 0;
+}
+.gfx-25-hero.gfx-29-hero .container-fluid{
+font-size: 1vw;
+}
+.gfx-29-inner-col{
+background: linear-gradient(#F9F0F1 0%, #F7E2F1 60%, #B4CFEC);
+border-radius: .3em;
+box-shadow: 0 -1px 0px #F8E3F2;
+margin-top: 9.7vw;
+height: initial;
+margin-right: 3em;
+padding: 1em;
+text-align: center;
+width: 32em;
+padding-top: 1.5em;
+}
+.gfx-29-hero-inner{
+position: relative;
+}
+.gfx-29-sig{
+position: absolute;
+width: 25em;
+left: 30em;
+top: 3em;
+}
+.gfx-29-inner-col h1{
+font-weight: 800;
+font-size: 2.2em;
+margin-bottom: .1em;
+line-height: 1;
+}
+.gfx-29-inner-col p{
+font-size: 1.35em;
+margin-bottom: .1em;
+line-height: 1;
+}
+.gfx-29-inner-col p span{
+border-bottom: 1px solid #000;
+padding-bottom: .4em; 
+display: inline-block;
+margin-bottom: 1.6em;
+}
+.gfx-29-inner-col h6{
+text-align: left;
+padding-left: 2.3em;
+font-size: 1.4em;
+margin-bottom: 1.2em;
+}
+.gfx-29-inner-col h6 b{
+font-weight: 800;
+}
+.gfx-29-inner-col .d-btn {
+    font-weight: 400;
+    background: linear-gradient(#015B28, #01B037);
+    border: 2px solid #01B037;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.3em;
+    margin-top: 0.5em;
+    font-size: 1.7em;
+}
+.gfx-29-inner-col .d-btn:hover{
+background: linear-gradient(#01B037, #015B28);
+}
+.gfx-29-hero-inner1{
+margin-top: 3.5em;
+padding-left: 9em;
+}
+.gfx-29-hero-inner1 h1{
+color: #fff;
+text-transform: uppercase;
+font-size: 3.8em;
+text-shadow: 0 2px 20px rgba(0,0,0,1);
+margin-bottom:0;
+line-height: 1;
+}
+.gfx-29-hero-inner1 h1 b{
+font-weight: 800;
+}
+.gfx-29-hero-inner1 h5{
+text-transform: uppercase;
+font-size: 2.8em;
+padding-left: 1.4em;
+line-height: 1;
+color: #000;
+}
+.gfx-29-hero-inner1 h5 b{
+    font-weight: 800;
+}
+.gfx-29-hero-inner1 p{
+color: #fff;
+font-size: 1.91em;
+text-shadow: 0 2px 15px rgba(0,0,0,1);
+margin-bottom:0;
+line-height: 1;
+}
+.gfx-29-hero-inner1 p{
+text-transform: normal;
+}
+.gfx-29-hero-inner1 p b{
+text-transform: uppercase;
+}
+.gfx-29-sec1{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-29-bg1.png);
+}
+.gfx-29-sec1{
+background-size: contain;
+background-repeat: no-repeat;
+min-height: 10.3vw;
+display: flex;
+align-items: center;
+padding: 0 2vw;
+font-size: 1.1vw;
+}
+.gfx-29-sec1-inner{
+display: flex;
+color: #fff;
+align-items: center;
+}
+.gfx-29-sec1-inner span:first-child{
+font-size: 4.5em;
+font-weight: 800;
+}
+.gfx-29-sec1-inner span:last-child{
+font-size: 1.2em;
+text-transform: uppercase;
+text-align: center;
+line-height: 1;
+padding-top: .3em;
+}
+.gfx-29-sec1-inner1{
+width: 13.9em;
+margin-left: 10em
+}
+.gfx-29-sec1-inner2{
+width: 9.5em;
+margin-left: 7em;
+}
+.gfx-29-sec1-inner3{
+width: 11.4em;
+margin-left: 7em;
+}
+.gfx-29-sec1-inner3 span:last-child{
+text-align: left;
+padding-left: .3em;
+}
+.gfx-29-sec1-inner3 span a{
+text-decoration: none;
+background: linear-gradient(#015B28, #01B037);
+    border: 2px solid #01B037;
+display: flex;
+color: #fff;
+font-size: .67em;
+border-radius: .2em;
+text-align: center;
+justify-content: center;
+padding: .17em;
+margin-top: .3em;
+}
+.gfx-29-sec1-inner4{
+margin-left: 5em;
+align-items: center;
+display: flex;
+}
+.gfx-29-sec1-inner4 a{
+text-decoration: none;
+}
+.gfx-29-sec1-inner4 button{
+text-decoration: none;
+    background: linear-gradient(#015B28, #01B037);
+    border: 2px solid #01B037;
+    display: flex;
+text-transform: uppercase;
+font-weight: 800;
+    color: #fff;
+    font-size: 1.3em;
+    border-radius: 0.2em;
+    text-align: center;
+    justify-content: center;
+    padding: 0.3em 1.7em;
+    margin-top: 0.3em;
+}
+.gfx-29-sec1-inner4 button:hover{
+ background: linear-gradient(#01B037, #015B28);
+}
+.gfx-29-sec2{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-29-bg2.png);
+    background-size: 100% 100%;
+}
+.gfx-29-sec2{
+padding: 5rem 0;
+padding-bottom: 2.5rem;
+}
+.gfx-29-sec2 h1{
+color: #fff;
+text-align: center;
+font-size: 1.9rem;
+margin-bottom: 6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.gfx-29-sec2 h1 b{
+    font-weight: 800;
+}
+.gfx-29-sec2-inner img{
+height: 6rem;
+margin: auto;
+display: block;
+margin-bottom: 2rem;
+}
+.gfx-29-sec2-inner h5 {
+    color: #fff;
+    padding-left: 0;
+    max-width: 16rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.gfx-29-sec2-inner ul{
+padding-left: 2.4rem;
+}
+.gfx-29-sec2-inner ul li{
+display: flex;
+color: #fff;
+align-items: start;
+justify-content: start;
+margin-bottom: .4rem;
+}
+.gfx-29-sec2-inner ul li img{
+height: 1rem;
+margin: initial;
+margin-top: .2rem;
+}
+.gfx-29-sec2-inner ul li p{
+margin:0;
+padding-left: .3rem;
+font-size: .9rem;
+color: #c2bfbf;
+}
+.gfx-29-sec2-inner ul li p span{
+font-weight: 800;
+}
+.gfx-29-sec2-inner{
+position: relative;
+}
+.gfx-29-sec2-inner.b-0:after{
+display: none;
+}
+.gfx-29-sec2-inner:after{
+position: absolute;
+content:"";
+right:-0.5rem;
+height: 70%;
+bottom:-.5rem;
+width: 1px;
+background-color: #c2bfbf;
+}
+.gfx-29-sec2-inner1{
+margin-top: 3rem;
+text-align: center;
+}
+.gfx-29-sec2-inner1 .d-btn, .d-btn-dark{
+text-transform: uppercase;
+font-size: 1.7rem;
+padding: .3rem 2rem;
+padding-bottom: .5rem;
+background: linear-gradient(#015B28, #01B037);
+    border: 2px solid #01B037;
+}
+.gfx-29-sec2-inner1 .d-btn:hover, .d-btn-dark:hover{
+background: linear-gradient(#01B037, #015B28);
+}
+.gfx-29-sec3{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-29-bg3.png);
+    background-color: #fff;
+}
+.gfx-29-sec3 h1{
+text-align: center;
+text-transform: uppercase;
+font-size:2rem;
+margin-bottom: 3rem;
+}
+.gfx-29-sec3{
+padding-top: 4rem;
+padding-bottom: 6rem;
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: 50% 0;
+}
+.gfx-29-sec3 h3{
+text-align: center;
+text-transform: uppercase;
+font-size:1.7rem;
+margin-bottom: 3rem;
+}
+.gfx-29-sec3-inner1{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.gfx-29-sec3-col{
+text-align: center;
+width: 20%;
+}
+.gfx-29-sec3-col img{
+height: 6.5rem;
+margin-bottom: .5rem;
+}
+.gfx-29-sec3-col p{
+text-transform: uppercase;
+font-size:1rem;
+}
+.gfx-29-sec3-col p b{
+font-weight: 800;
+}
+.gfx-32-hero{
+    background-image: url(../images/gfx-32-bg.png);
+}
+.d-top-nav ul li{
+margin: 0 .4rem;
+}
+.d-top-nav ul li a{
+background-color: #fff;
+color: #000;
+width: 2.2rem;
+height: 2.2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+text-decoration: none;
+font-size: 1.4rem;
+transition: all .3s ease;
+}
+.d-top-nav ul li a:hover{
+background-color: #000;
+color: #fff;
+}
+.d-top-nav ul{
+margin-right:1.5rem;
+}
+.d-top-nav a img{
+width: 10rem;
+margin-right: 2rem;
+}
+.gfx-32-hero {
+    font-size: 1vw;
+    min-height: 48vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gfx-32-inner-col{
+margin-top: 10em;
+text-align: center;
+color: #fff;
+margin-right: 6em;
+}
+.gfx-32-inner-col h1{
+font-weight: 400;
+font-size: 4.2em;
+line-height: 1.1;
+text-shadow: 0 5px 14px rgba(0,0,0,1)
+}
+.gfx-32-inner-col p{
+font-size: 6.1em;
+line-height: 1;
+font-weight: 800;
+text-shadow: 0 5px 15px rgba(0,0,0,1)
+}
+.gfx-32-inner-col .d-btn-dark{
+color: #fff;
+font-size: 2.8em;
+font-weight: 700;
+border-radius: .15em;
+width: 11.5em;
+margin-top: .5em;
+}
+.gfx-29-sec1.gfx-32-sec1 .gfx-29-sec1-inner1 {
+    width: 17.7em;
+    margin-left: 7em;
+}
+.gfx-29-sec1.gfx-32-sec1 .gfx-29-sec1-inner span:last-child{
+text-align: left;
+padding-left: .4em;
+}
+.gfx-29-sec1.gfx-32-sec1 .gfx-29-sec1-inner2 {
+    margin-left: 9em;
+}
+.gfx-29-sec1.gfx-32-sec1 .gfx-29-sec1-inner3 {
+    width: 18.4em;
+    margin-left: 6.5em;
+}
+.gfx-29-sec1.gfx-32-sec1 .gfx-29-sec1-inner4 {
+    margin-left: 3em;
+}
+.gfx-29-sec1.gfx-32-sec1 .gfx-29-sec1-inner4 button{
+padding: 0.3em 0.7em;
+}
+.gfx-29-sec1.gfx-32-sec1 .gfx-29-sec1-inner3 span a{
+    max-width: 12em;
+}
+.info-sec2{
+background: linear-gradient(to bottom, #fff, #B8B8B8);
+padding: 4rem 0;
+}
+.info-sec2 h1{
+font-size: 1.7rem;
+text-align: center;
+font-weight: 800;
+margin-bottom: 1.2rem;
+text-transform: uppercase;
+}
+.info-sec2-top p{
+text-align: center;
+text-transform: uppercase;
+font-size: 1.09rem;
+margin-bottom: 1.2rem;
+}
+.info-sec2-b-inner{
+max-width: calc(100% - 26rem);
+padding-left: 2.7rem;
+}
+.info-sec2-b-img1{
+width: 8rem;
+margin-bottom: 3rem;
+right: -2rem;
+position: relative;
+}
+.info-sec2-b-img2{
+width: 11rem;
+margin-bottom: 3rem;
+}
+.info-sec2-b-inner .d-flex.row .col-6:first-child p{
+padding-right: 1rem;
+}
+.info-sec2-botom p{
+font-size: 1.05rem;
+}
+.info-sec2-b-inner .d-flex.row .col-6:last-child p{
+padding-left: 1rem;
+border-left: 4px solid #000;
+}
+.gfx-29-sec1.gfx-32-sec1{
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*gfx-6733 css*/
+.gfx-33-sec1{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-33-bg.png);
+}
+.gfx-33-sec1{
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 48vw;
+font-size: 1.06vw;
+}
+.gfx-33-sec1-inner{
+max-width: 41em;
+margin-top: 14.5vw;
+margin-left: 6vw;
+}
+.gfx-33-sec1-inner h1{
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #f2242b;
+line-height: 1;
+font-size: 6em;
+font-weight: 800;
+text-shadow: 0 0 10px rgba(0,0,0,1);
+margin-bottom:0;
+}
+.gfx-33-sec1-inner h1 span{
+font-size: .4em;
+font-weight: 500;
+}
+.gfx-33-sec1-inner h1 span b{
+font-weight: 500;
+font-size: .8em;
+}
+.gfx-33-sec1-inner h3{
+text-transform: uppercase;
+color: #fff;
+font-size: 2.87em;
+line-height: 1;
+margin-bottom: .1em;
+text-align: center;
+text-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.gfx-33-sec1-inner h3 b{
+font-weight: 800;
+}
+.gfx-33-sec1-inner p{
+text-transform: uppercase;
+color: #fff;
+font-size: 1.88em;
+line-height: 1;
+margin-bottom: .1em;
+text-align: center;
+text-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.gfx-33-sec1-inner p b{
+font-weight: 800;
+}
+.gfx-33-sec1-inner p span{
+color: #f2242b;
+font-weight: 800;
+}
+
+
+
+
+
+
+/*gfx-6734 css*/
+.gfx-34-sec1{
+    background-image: url(../images/gfx-34-bg.png);
+}
+.navbar-d.gfx-34-nav{
+position: absolute;
+left:0;
+top:0;
+width: 100%;
+padding-top: 3rem;
+}
+.gfx-34-sec1 {
+    min-height: 55.9vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+font-size: 1.2vw;
+}
+.gfx-34-sec1-inner{
+width: 37em;
+margin-left: 4.5em;
+text-align: center;
+margin-top: 6em;
+}
+.gfx-34-sec1-inner h6{
+color: #fff;
+font-size: 2.6em;
+letter-spacing: .9em;
+font-weight: 800;
+line-height:1;
+padding-left: .7em;
+}
+.gfx-34-sec1-inner h2{
+color: #fff;
+font-size: 6em;
+font-weight: 800;
+line-height:1;
+}
+.gfx-34-sec1-inner h1{
+background: -webkit-linear-gradient(#FFDFF7 40%, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-size: 8.5em;
+font-weight: 800;
+line-height: .9;
+margin-top: -.15em;
+padding-left: .06em;
+filter: drop-shadow(1px 2px 0px #F0A7EF);
+position: relative;
+}
+.gfx-34-sec1-inner h1 img{
+position: absolute;
+width: .6em;
+right:.24em;
+top: .04em;
+}
+.gfx-34-sec1-inner h3{
+color: #fff;
+font-size: 3em;
+font-weight: 800;
+margin-bottom: .4em;
+}
+.gfx-34-sec1-inner p{
+color: #fff;
+font-size: 1.1em;
+max-width: 28em;
+margin: auto;
+margin-bottom: .5em;
+}
+.gfx-34-sec1-inner p span{
+color: #BFAAF7;
+font-size: 1.2em;
+font-weight: 500;
+line-height:1;
+}
+.gfx-34-sec1-inner button{
+font-size: 2em;
+border-radius: .2em;
+padding: .2em .6em;
+margin-top: .5em;
+}
+.gfx-29-sec1.gfx-34-sec2{
+    min-height: 12.6vw;
+font-size: 1.4vw;
+}
+.gfx-29-sec1.gfx-34-sec2 .gfx-29-sec1-inner1 {
+    width: 14.9em;
+    margin-left: 8em;
+}
+.gfx-29-sec1.gfx-34-sec2 .gfx-29-sec1-inner2 {
+    width: 12.5em;
+    margin-left: 5em;
+}
+.gfx-29-sec1.gfx-34-sec2 .gfx-29-sec1-inner b{
+font-weight: 800;
+}
+.gfx-29-sec1.gfx-34-sec2 .gfx-29-sec1-inner3 {
+    width: 11.5em;
+    margin-left: 5em;
+
+}
+.gfx-29-sec1.gfx-34-sec2 .gfx-29-sec1-inner3 b, .gfx-29-sec1.gfx-34-sec2 .gfx-29-sec1-inner3 b ~ span{
+font-size: .9em !important;
+}
+.gfx-29-sec1.gfx-34-sec2 .gfx-29-sec1-inner span span{
+color: #148F36;
+font-size: .95em;
+font-weight: 600;
+}
+.gfx-29-sec1.gfx-34-sec2 .gfx-29-sec1-inner span span.span1{
+font-size: .6em;
+padding-left: .1em;
+position: relative;
+top: -.3em;
+}
+.gfx-29-sec1.gfx-34-sec2 .gfx-29-sec1-inner span span{
+padding-left:0;
+}
+.gfx-29-sec2.gfx-34-sec3{
+    background-image: url(../images/bg1.png);
+}
+.gfx-29-sec2.gfx-34-sec3{
+background-size: cover;
+background-repeat: no-repeat;
+}
+.gfx-29-sec2.gfx-34-sec3 h1{
+color: #000;
+text-transform: initial;
+font-size: 2.5rem;
+}
+.gfx-29-sec2.gfx-34-sec3 h1 span{
+position: relative;
+}
+.gfx-29-sec2.gfx-34-sec3 h1 span:after{
+position: absolute;
+content:"";
+width: 4px ;
+top:0.9rem;
+bottom:.4rem;
+left:-1.5rem;
+background-color: #12AC3A
+}
+.gfx-29-sec2.gfx-34-sec3 .gfx-29-sec2-inner:after{
+background-color: #000;
+}
+.gfx-29-sec2.gfx-34-sec3 
+ .gfx-29-sec2-inner h5{
+color: #000;
+}
+.gfx-29-sec2.gfx-34-sec3 .gfx-29-sec2-inner ul li p{
+color: #000;
+}
+.gfx-29-sec2.gfx-34-sec3 button{
+margin-top: 3rem;
+margin-bottom: 2rem;
+}
+.info-sec2.info1-sec4{
+    background-image: url(../images/gfx-34-bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.info-sec2.info1-sec4{
+color: #9B9B9B;
+}
+.info-sec2.info1-sec4 h1{
+font-weight: 600;
+font-size: 1.8rem;
+position: relative;
+padding-bottom: 1rem;
+}
+.info-sec2.info1-sec4 h1 span{
+font-size: 1.56rem;
+}
+.info-sec2.info1-sec4 h1:after{
+position: absolute;
+content:"";
+bottom:0;
+height: 3px;
+width: 6rem;
+left: calc(50% - 3rem);
+background-color: #679A66;
+}
+.info-sec2.info1-sec4 .info-sec2-top p{
+color: #fff;
+max-width: 44rem;
+margin-left: auto;
+margin-right: auto;
+text-transform: initial;
+}
+.info-sec2.info1-sec4 .info-sec2-b-img1{
+position:relative;
+top: -5.5rem;
+}
+.info-sec2.info1-sec4 .info-sec2-b-img2{
+position:relative;
+top: -5.5rem;
+width: 8rem;
+}
+.info-sec2.info1-sec4 .info-sec2-b-inner .d-flex.row .col-6 p{
+font-size: .9rem;
+font-weight: 600;
+}
+.info-sec2.info1-sec4 .info-sec2-b-inner .d-flex.row .col-6:last-child p{
+border-color: #9B9B9B;
+border-width: 1px;
+padding-bottom: 2rem;
+padding-top: 2rem;
+}
+.info-sec2.info1-sec4 .info-sec2-b-inner .d-flex.row .col-6:first-child p{
+padding-bottom: 2rem;
+padding-top: 2rem;
+}
+.info-sec2.info1-sec4 .info-sec2-b-inner{
+padding-left:0;
+}
+.info-sec2.info1-sec4 .info-sec2-b-inner .d-flex.row .col-6:first-child p{
+padding-left: 1.8rem;
+}
+.d-f ul li img{
+max-height: 2.5rem;
+max-width: 2.9rem;
+}
+.d-f{
+padding: 3rem 0;
+}
+.d-f ul{
+align-items: end;
+}
+.d-f ul li{
+margin-right:2.3rem;
+}
+.d-f p{
+color: #9B9B9B;
+font-size: 1.05rem;
+}
+
+@media(min-width:  1200px){
+.footer.d-f .container{
+    max-width: 1140px;
+}
+}
+.get-sec1-inner button{
+    background-image: url(../images/gfx-35-btn-bg.png);
+    background-size: 100% 100%;
+}
+.get-sec1{
+    background-image: url(../images/gfx-35-bg.png);
+}
+.gfx-lang-btn{
+border:0;
+background-color: transparent;
+color: #9B9B9B;
+display: flex;
+justify-content: space-between;
+min-width: 5rem;
+align-items: center;
+font-weight: 600;
+font-size: 1.2rem;
+margin-right: 1.5rem;
+}
+.get-sec1 {
+    position: relative;
+    min-height: 41vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+font-size: 1vw;
+}
+.get-sec1-img{
+position: absolute;
+right: 3.7em;
+top: 3em;
+width: 7em;
+}
+.get-sec1-inner{
+text-align: right;
+width: 50em;
+margin-top: 7em;
+color: #fff;
+}
+.get-sec1-inner h1{
+line-height: 1;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 6em;
+margin-bottom:0;
+text-shadow: 0 0 8px rgba(0,0,0,1)
+}
+.get-sec1-inner h1 span{
+font-size: .7em;
+}
+.get-sec1-inner h2{
+text-transform: uppercase;
+font-size: 3.72em;
+font-weight: 800;
+line-height: 1;
+text-shadow: 0 0 8px rgba(0,0,0,1)
+}
+.get-sec1-inner h3{
+text-transform: uppercase;
+font-size: 2.92em;
+font-weight: 800;
+line-height: 1;
+text-shadow: 0 0 8px rgba(0,0,0,1);
+margin:0;
+margin-top: -.1em;
+}
+.get-sec1-inner p{
+text-transform: uppercase;
+font-size: 2.3em;
+font-weight: 800;
+line-height: 1.2;
+text-shadow: 0 0 8px rgba(0,0,0,1);
+margin:0;
+}
+.get-sec1-inner button , .pur-btn{
+background-color: transparent;
+border:0;
+width: 10em;
+color: #fff;
+text-transform: uppercase;
+font-weight: 800;
+height: 2.4em;
+font-size: 2.8em;
+margin-top: .7em;
+}
+.play-sec2{
+background-color: #fff;
+padding: 2rem 0;
+}
+.play-sec2 h2{
+text-align: center;
+font-size: 2.5rem;
+font-weight: 600;
+margin-bottom: 1rem;
+}
+.play-sec2-inner img{
+height: 7.5rem;
+margin: auto;
+display: block;
+margin-bottom: 1rem;
+}
+.play-sec2-inner h4{
+text-align: center;
+font-weight: 800;
+font-size: 2.5rem;
+line-height: .9;
+margin-bottom: .7rem;
+}
+.play-sec2-inner p{
+margin-bottom: 0rem;
+font-size: 1.1rem;
+line-height: 1.1;
+}
+.play-sec2-inner1 p{
+margin-left: 15%;
+}
+.play-sec2-inner2 p{
+margin-left: 23%;
+}
+.play-sec2-inner3 p{
+margin-left: 13%;
+}
+.real-sec3{
+    background-image: url(../images/gfx-35-bg1.png);
+    background-size: 100% 100%;
+}
+.real-sec3{
+text-align: center;
+padding: 3rem 0;
+}
+.real-sec3 .d-btn{
+text-transform: uppercase;
+font-size: 2.5rem;
+min-width: 33rem;
+padding-bottom: .8rem;
+padding-top: .6rem;
+border-radius: .5rem;
+}
+.info-sec2.info1-sec4.info2-sec4{
+    background-image: url(../images/gfx-35-bg2.png);
+    background-size: 100% 100%;
+}
+.info1-sec4.info2-sec4 h1{
+color: #fff;
+font-weight: 800;
+line-height: 1;
+margin-bottom: .5rem;
+font-size: 1.5rem;
+}
+.info1-sec4.info2-sec4 h1 span{
+font-size: 1.5rem;
+}
+.info1-sec4.info2-sec4 h1:after{
+display: none;
+}
+.info1-sec4.info2-sec4 .info-sec2-top p{
+text-align: justify;
+padding: 0 2rem;
+margin-bottom:0;
+text-transform: uppercase;
+}
+.info1-sec4.info2-sec4 .info-sec2-b-inner .d-flex.row .col-6:first-child p, .info1-sec4.info2-sec4 .info-sec2-b-inner .d-flex.row .col-6:last-child p{
+padding-top: 0;
+padding-bottom: 0;
+text-align: justify;
+text-transform: uppercase;
+color: #fff;
+font-weight: 400;
+    font-size: 1.07rem;
+margin-top: -3rem;
+}
+.info1-sec4.info2-sec4 .info-sec2-b-img2{
+width: 10rem;
+top: initial;
+margin-top: -11rem;
+}
+.info1-sec4.info2-sec4 .info-sec2-top{
+padding-right: 3rem
+}
+.info1-sec4.info2-sec4 .info-sec2-b-inner{
+padding-right: 2rem;
+}
+.info1-sec4.info2-sec4 .info-sec2-b-inner .d-flex.row .col-6:last-child p{
+    border-left:  4px solid #fff;
+}
+.d-f.d1-f{
+    padding: 1.5rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*gfx-6736 css*/
+.navbar-d.gfx-36-nav .step-sec .step-sec-inner {
+    width: 100%;
+    align-items: start;
+}
+.navbar-d.gfx-36-nav .step-sec {
+    width: calc(50%);
+}
+.navbar-d.gfx-36-nav .d-btn-a button{
+font-size: 2rem;
+}
+.navbar-d.gfx-36-nav  div.d-flex1:last-child{
+margin-bottom: auto;
+padding-top: 1rem;
+}
+.navbar-d.gfx-36-nav .step1-col .no-span{
+border-width: .5rem;
+}
+.gfx-36-sec1{
+    position: relative;
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-36-bg.png);
+    background-size: cover;
+}
+.gfx-36-sec1{
+min-height: 43.8vw;
+font-size: 1.6vw;
+}
+.gfx-36-sec1 .get-sec1-img{
+top: 3em;
+width: 4.2em;
+}
+.gfx-36-sec1-inner{
+width: 20em;
+margin-left: auto;
+text-align: center;
+margin-right: 8em;
+margin-top: 2.5em
+}
+.gfx-36-sec1-inner h2{
+color: #fff;
+text-transform: uppercase;
+font-size: 4em;
+font-weight: 800;
+margin:0;
+line-height:.9;
+text-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.gfx-36-sec1-inner h1{
+color: #fff;
+text-transform: uppercase;
+font-size: 5.6em;
+font-weight: 800;
+margin:0;
+line-height:.9;
+text-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.gfx-36-sec1-inner h3{
+color: #fff;
+text-transform: uppercase;
+font-size: 2.1em;
+font-weight: 700;
+margin:0;
+line-height:1.4;
+text-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.gfx-36-sec1-inner p{
+color: #fff;
+text-transform: uppercase;
+font-size: 1.3em;
+font-weight: 500;
+margin:0;
+line-height:1.2;
+margin-bottom: .6em;
+text-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.gfx-36-sec1-inner .d-btn{
+border-radius: .3em;
+font-size: 1.9em;
+text-transform: uppercase;
+padding: .2em 1em;
+padding-bottom: .28em;
+}
+.play-sec2.gfx-36-sec2 h4{
+font-size: 1.3rem;
+line-height: 1.2;
+}
+.play-sec2.gfx-36-sec2 p b{
+font-weight: 700;
+}
+.play-sec2.gfx-36-sec2 img{
+height: 8.7rem;
+}
+.play-sec2.gfx-36-sec2 p{
+line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*gfx-6737 css*/
+.hero-sec.gfx-37-hero{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-37-bg.png);
+}
+.gfx-37-sp{
+    color: #9B9B9B;
+font-weight: 500;
+font-size: 1.1rem;
+text-decoration: none;
+margin-right: 2.5rem;
+}
+.gfx-37-sp:hover{
+    color: #00b139;
+}
+.hero-sec.gfx-37-hero h6{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-37-img1.png);
+}
+.hero-sec.gfx-37-hero .hero-sec-inner{
+margin-left: 6vw;
+margin-top: 6vw;
+}
+.gfx-29-sec1.gfx-37-sec1 .gfx-29-sec1-inner3 span a{
+background: none;
+width: 9.6em;
+font-size: .6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*gfx-6740 css*/
+.gfx-40-hero{
+background-color: #fff;
+padding: 2rem 0;
+font-size: 1vw;
+}
+.gfx-40-hero-inner{
+max-width: 40em;
+margin: auto;
+}
+.gfx-40-hero-inner h1{
+text-transform: uppercase;
+font-weight: 800;
+color: #05933a;
+font-size: 5em;
+line-height: .45;
+text-align: center;
+}
+.gfx-40-hero-inner h1 span{
+color: #000;
+font-weight: 600;
+font-size: .6em;
+display: inline;
+}
+.gfx-40-hero-inner h1 b{
+font-weight: 800;
+display: inline-block;
+padding-top: .3em;
+}
+.gfx-40-hero-inner p{
+margin-top: 1em;
+text-transform: uppercase;
+text-align: center;
+font-size: 1.23em;
+font-weight: 500;
+}
+.gfx-40-hero-inner p span{
+color: #05933a;
+font-weight: 600;
+}
+.gfx-40-hero-inner img{
+width:28em;
+margin: auto;
+display: block;
+margin-bottom: .5em;
+}
+.gfx-40-hero-inner h3{
+text-align: center;
+text-transform: uppercase;
+font-weight: 600;
+margin-bottom: .3em;
+}
+.gfx-40-hero-inner h3 span{
+color: #05933a;
+}
+.gfx-40-hero-inner ul{
+list-style: decimal;
+padding:0;
+margin:0;
+padding-left: 1.5em;
+font-size: .9em;
+}
+.gfx-40-hero-inner ul li{
+line-height: 1.2;
+}
+.gfx-40-sec1{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-40-bg.png);
+}
+.gfx-40-sec1 {
+    padding: 2vw 0;
+    min-height: 26.2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+font-size: 1.2vw;
+text-align: center;
+}
+.gfx-40-sec1 h2{
+text-align: center;
+color: #fff;
+font-size: 4.7em;
+text-transform: uppercase;
+font-weight: 800;
+text-shadow: 0 0 8px rgba(0,0,0,1);
+margin-bottom:0;
+line-height: 1;
+margin-top: .5em;
+}
+.gfx-40-sec1 h4{
+text-align: center;
+color: #fff;
+font-size: 3.45em;
+text-transform: uppercase;
+font-weight: 600;
+text-shadow: 0 0 8px rgba(0,0,0,1);
+margin-bottom:0;
+line-height: .7;
+}
+.gfx-40-sec1 button{
+text-transform: uppercase;
+border-radius: .2em;
+margin-top: 1.5em;
+font-size: 1.7em;
+padding: .1em .5em;
+}
+
+
+
+
+.get-sec1.get1-sec1{
+    background-image: url(../images/gfx-41-bg.png);
+}
+.get-sec1.get1-sec1{
+min-height: 40vw;
+}
+.get-sec1.get1-sec1 .get-sec1-inner{
+width: 47em;
+    margin-top: 8em;
+}
+.real-sec3.real1-sec2{
+    background-image: url(../images/gfx-41-bg1.png);
+}
+.info2-sec4.info3-sec3.info-sec2.info1-sec4{
+    background-image: url(../images/gfx-41-bg2.png);
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+/*gfx-6742 css*/
+.get-sec1.gfx-42-sec1{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-42-bg.png);
+}
+.get-sec1.gfx-42-sec1 .d-btn{
+background: linear-gradient(#009629, #00b139);
+line-height: .8em !important;
+width: 10.4em !important;
+height: 2.7em;
+padding-bottom: .39em;
+border-radius: .2em;
+font-size: 2.5em !important;
+}
+.get-sec1.gfx-42-sec1 .d-btn span{
+font-size: .65em;
+}
+.get-sec1.gfx-42-sec1 .d-btn:hover{
+    background: linear-gradient(#00b139, #009629);
+}
+.real-sec3.gfx-42-sec2{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-42-bg1.png);
+}
+
+
+
+
+
+/*gfx-6745 css*/
+.navbar-d.gfx-45-navbar .d-btn{
+font-weight: 300;
+}
+.gfx-45-sec1{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-45-bg.png);
+}
+.gfx-45-sec1 {
+    min-height: 38vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+font-size: 1.07vw;
+}
+.gfx-45-sec1-inner{
+width: 44em;
+margin-left: 3em;
+margin-top: 4.5em;
+text-align: center;
+}
+.gfx-45-sec1-inner h1{
+color: #04933B;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 9em;
+line-height:1;
+text-shadow: 3px 4px 1px rgba(0,0,0,1);
+margin-bottom:0;
+}
+.gfx-45-sec1-inner h4{
+color: #fff;
+text-transform: uppercase;
+font-weight: 600;
+font-size: 3em;
+line-height:1;
+text-shadow: 3px 4px 1px rgba(0,0,0,1);
+margin-bottom:0;
+margin-bottom: 1em;
+}
+.gfx-45-sec1-inner h3{
+color: #fff;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 2.7em;
+line-height:1;
+text-shadow: 3px 4px 1px rgba(0,0,0,1);
+margin-bottom:0;
+}
+.gfx-45-sec1-inner p{
+color: #fff;
+text-transform: uppercase;
+font-weight: 300;
+font-size: 2.76em;
+line-height:1;
+text-shadow: 3px 4px 1px rgba(0,0,0,1);
+margin-bottom:0;
+letter-spacing: .33em;
+padding-left: .3em;
+}
+.gfx-45-sec1-inner h5{
+color: #04933B;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 5.2em;
+line-height:1;
+text-shadow: 3px 4px 1px rgba(0,0,0,1);
+margin-bottom:0;
+}
+.gfx-45-sec1-inner h6{
+color: #04933B;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 2.1em;
+line-height:1;
+text-shadow: 3px 4px 1px rgba(0,0,0,1);
+margin-bottom:0;
+padding-top: .4em;
+padding-left: .2em;
+padding-right: .2em;
+}
+.gfx-45-sec1-inner h5 span{
+font-size: .7em;
+}
+.gfx-45-sec2{
+padding: 3.5rem 0;
+}
+.gfx-45-sec2 h2{
+color: #fff;
+text-transform: uppercase;
+font-size: 3.5rem;
+font-weight: 800;
+margin-bottom: 0;
+text-align: center;
+line-height: 1;
+}
+.gfx-45-sec2 h4{
+color: #fff;
+text-transform: uppercase;
+font-size: 3rem;
+font-weight: 400;
+margin-bottom: 0;
+text-align: center;
+line-height: 1;
+}
+.gfx-45-sec2 .d-btn{
+text-transform: uppercase;
+color: #2CFF74;
+background: #323234;
+border-radius: .3rem;
+font-size: 3.6rem;
+padding: .5rem 2rem;
+transition: all .3s ease;
+box-shadow: -1px -2px 2px rgba(255,255,255,0.4)
+}
+.gfx-45-sec2 .d-btn:hover{
+background: #28282b;
+box-shadow: 0px 0px 2px rgba(255,255,255,0.4)
+}
+.gfx-40-sec1.gfx-45-sec3{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-45-bg1.png);
+}
+.gfx-40-sec1.gfx-45-sec3{
+min-height: 23vw;
+}
+.gfx-40-sec1.gfx-45-sec3 h2{
+margin-bottom:0;
+text-shadow: 3px 4px 1px rgba(0,0,0,1); 
+}
+.gfx-40-sec1.gfx-45-sec3 button{
+margin-top:0.4em;
+font-size: 2.3em;
+box-shadow: 2px 4px 1px rgba(0,0,0,1);
+}
+.gfx-45-sec4{
+padding-top: 3rem;
+padding-bottom: 1.5rem;
+}
+.gfx-45-sec4 h3{
+color: #fff;
+font-size: 2rem;
+margin-bottom: 1.8rem;
+line-height: 1;
+}
+.gfx-45-sec4 h3 span{
+border-left: 3px solid #228246;
+padding-left: 1rem;
+line-height: 1;
+}
+.gfx-45-sec4-inner1{
+padding-right: 2rem;
+}
+.gfx-45-sec4-inner2{
+padding-left: 2rem;
+}
+.gfx-45-sec5{
+background-color: #fff;
+padding: 3rem 0;
+}
+.gfx-45-sec5 .row{
+margin-left: -2rem;
+margin-right: -2rem;
+}
+.gfx-45-sec5-inner{
+border-right: 2px solid grey;
+height: 100%;
+}
+.gfx-45-sec5-inner img{
+height: 7.5rem;
+filter: brightness(0%);
+}
+.gfx-45-sec5-inner3{
+border:0;
+}
+.gfx-45-sec5-inner div{
+padding-left: 1rem;
+padding-right: .5rem;
+}
+.gfx-45-sec5-inner h6{
+text-transform: uppercase;
+margin-bottom: 0;
+font-weight: 800;
+font-size: 1.1rem;
+}
+.gfx-45-sec5-inner p{
+text-transform: uppercase;
+margin:0;
+font-size: .85rem;
+line-height:1.2;
+}
+
+
+
+
+
+
+
+
+
+/*gfx-6746 css*/
+.navbar-d.gfx-46-navbar .gfx-46-menu ul li a{
+background-color: transparent;
+color: #9B9B9B;
+width: initial;
+height: initial;
+font-size: 1.1rem;
+}
+.navbar-d.gfx-46-navbar .gfx-46-menu ul{
+display: flex;
+}
+.navbar-d.gfx-46-navbar .gfx-46-menu ul li a img{
+width: .5rem;
+margin-right: .4rem;
+}
+.navbar-d.gfx-46-navbar .gfx-46-menu ul li{
+margin-right: 2rem;
+}
+.gfx-46-sec1{
+background-color: #fff;
+padding: 2rem 0;
+font-size: 16px;
+}
+.gfx-46-sec1 h1{
+font-size: 3.7em;
+color: #000;
+text-transform: uppercase;
+font-weight:800;
+line-height: 1;
+margin-bottom: 0;
+}
+.gfx-46-sec1 .col-md-6:nth-child(2){
+padding-left: 4em;
+}
+.gfx-46-sec1 .col-md-6:nth-child(1){
+text-align: center;
+}
+.gfx-46-sec1 h2 {
+    font-size: 5.3em;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 0.1em;
+}
+.gfx-46-sec1 p{
+font-size: 2.23em;
+color: #000;
+text-transform: uppercase;
+font-weight:400;
+line-height: 1;
+margin-bottom: 0.4em;
+letter-spacing: .2em;
+}
+.gfx-46-sec1 button{
+text-transform: uppercase;
+border-radius: .3em;
+padding: .5em 1.3em; 
+margin: auto;
+}
+.gfx-46-sec2{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-46-bg.png);
+    font-size: 1vw;
+    background-size: cover;
+}
+.gfx-46-sec2{
+    min-height: 27.9vw;
+display: flex;
+align-items: center;
+padding: 1em 0;
+}
+.d-flex.gfx-46-sec2-inner{
+padding-left: 29.5em !important;
+}
+.gfx-46-sec2-l{
+width: 35em;
+margin-right: 5em;
+}
+.gfx-46-sec2-inner h4{
+color: #fff;
+font-size: 1.7em;
+line-height: .8;
+font-weight: 700;
+text-shadow: 0 4px 2px rgba(0,0,0,.8);
+margin-bottom: 1em;
+padding-left: .5em;
+border-left:.14em solid #1F814C;
+}
+.gfx-46-sec2-inner h4 span{
+font-weight: 300;
+font-size: .75em;
+}
+.gfx-46-sec2-l-d div:first-child{
+width: 14.6em;
+padding-right: 3.5em;
+}
+.gfx-46-sec2-l-d img{
+width: 100%;
+}
+.gfx-46-sec2-l-d div:last-child{
+width: 17em
+}
+.gfx-46-sec2-l-d p{
+color: #fff;
+font-weight: 300;
+font-size: 1.1em;
+text-align: justify;
+line-height: 1.3;
+}
+.gfx-46-sec2-l-d button{
+text-transform: uppercase;
+font-size: 1.34em;
+width: 100%;
+}
+.gfx-46-sec2-r{
+width: 24em;
+}
+.gfx-46-sec2-r .gfx-46-sec2-r-d{
+width: 80%;
+}
+.gfx-46-sec3{
+background-color: #fff;
+padding: 1.3rem 0;
+}
+.gfx-46-sec2-r-d img{
+width: 100%;
+}
+.gfx-46-sec3-inner h4{
+font-weight: 700;
+letter-spacing: -1px;
+font-size: 1.4rem;
+margin-bottom: .8rem;
+}
+.gfx-46-sec3-main1 .col-md-4{
+border-right: 1px solid #C5C5C5;
+}
+.gfx-46-sec3-inner img{
+width: 100%;
+}
+.gfx-46-sec3-main1 .col-md-4:last-child{
+border:0;
+}
+.gfx-46-sec3-inner ul li {
+margin-bottom: .2rem;
+}
+.gfx-46-sec3-inner ul li a{
+text-decoration: none;
+color: #000;
+font-size: .95rem;
+font-weight: 400;
+}
+.gfx-46-sec3-inner ul li a:hover{
+text-decoration: underline;
+}
+.gfx-46-sec3-main1{
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+.gfx-46-sec3-main1{
+border-right: 3px solid #0DAC40
+}
+.gfx-46-sec3-main2{
+padding-left: 3rem;
+}
+.gfx-46-sec3-main2 img{
+width: 21rem;
+padding-right: 1.5rem;
+}
+.gfx-46-sec3-main2 h2{
+font-size: 3.8rem;
+text-transform: uppercase;
+font-weight: 700;
+line-height: 1;
+margin:0;
+}
+.gfx-46-sec3-main2 p{
+font-size: 1.4rem;
+line-height: 1;
+color: #000;
+}
+.gfx-46-sec3-main2 p a{
+color: #0BB73A;
+text-decoration: none;
+}
+.gfx-46-sec3-inner-b img{
+width: 4.5rem;
+    margin-right: 0.5rem;
+        margin-bottom: -0.5rem;
+}
+.gfx-46-sec3-inner-b h3{
+margin:0;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 1;
+letter-spacing: -1px;
+font-size: 1.9rem;
+}
+.gfx-46-sec3-inner-b a{
+color: #0BB73A;
+text-decoration: none;
+font-size: 1.5rem;
+line-height:1;
+margin-left: .5rem;
+}
+.gfx-46-sec3-inner-b{
+    margin-top: 3rem;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3{
+width: 20%;
+}
+.gfx-25-sec1.gfx-46-sec4 .gfx-25-sec1-inner3{
+padding-left: 1.5rem;
+}
+.gfx-25-sec1.gfx-46-sec4 .gfx-25-sec1-inner{
+padding-left: 0.3rem;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(3){
+width: 16%;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(2){
+width: 25%;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(1){
+width:16%;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(4){
+width:27%;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(5){
+width:16%;
+}
+.gfx-25-sec1.gfx-46-sec4 .gfx-25-sec1-inner4 div:last-child{
+width: 100%;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(1) ul li a{
+text-align: left !important;
+font-size: .9rem;
+text-decoration: none;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(1) ul li a:hover{
+    text-decoration: underline;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(1) ul li{
+margin:0;
+}
+.gfx-25-sec1.gfx-46-sec4 .gfx-25-sec1-inner h2{
+font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.footer.gfx-46-f{
+padding: 1.5rem 0;
+}
+
+
+
+
+/*gfx-6723 css*/
+.gfx-6723{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-23-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gfx-6723{
+font-size: 1vw;
+}
+.gfx-23-nav{
+padding: 4em 1em;
+align-items: center;
+padding-bottom: 3em;
+}
+.gfx-23-nav img{
+max-height: 6em;
+max-width: 10em;
+margin: 0 1.5em;
+}
+.gfx-23-sec1 h1{
+color: #fff;
+text-transform: uppercase;
+font-size: 4.9em;
+font-weight: 700;
+line-height: 1;
+margin-bottom: 0
+}
+.gfx-23-sec1 h1 span{
+color: #FF0F14;
+font-size: 1.14em;
+}
+.gfx-23-sec1 img{
+width: 96em;
+}
+.gfx-23-sec1 h6{
+color: #fff;
+margin-top: -8.4em;
+font-style: italic;
+font-weight: 500;
+font-size: 1.1em;
+margin-bottom: 5em;
+margin-left: auto;
+margin-right: auto;
+}
+.gfx-23-sec1 h4{
+color: #fff;
+font-weight: 500;
+font-size: 1.79em;
+margin-bottom: 1.2em;
+margin-left: auto;
+margin-right: auto;
+}
+.gfx-23-sec1 h4 span{
+color: #FF0F14
+}
+.gfx-23-sec1-inner{
+max-width: 64em;
+margin: auto;
+}
+.gfx-23-sec2{
+padding: 10em 10em;
+padding-bottom: 7em;
+}
+.gfx-23-sec2 h3{
+color: #fff;
+text-align: center;
+font-size: 2em;
+font-weight: 700;
+margin-bottom: 1em;
+}
+.gfx-23-sec2 ol li p{
+color: #fff;
+margin-bottom: 0;
+font-size: 1.1em;
+line-height: 1.1;
+}
+.gfx-23-sec2-inner1 ol{
+padding-right: 3em;
+border-right: 4px solid #FF0F14;
+height: 100%;
+    list-style: decimal;
+color: #fff;
+padding-left: 1.05em;
+}
+.gfx-23-sec2-inner2 ol{
+list-style: decimal;
+color: #fff;
+padding-left: 4.05em;
+}
+
+
+
+
+
+
+
+
+
+/*gfx-6724 css*/
+.gfx-23-sec1.gfx-24-sec1 h1{
+font-size: 5.6em;
+line-height: .8;
+margin-bottom: -1em;
+}
+.gfx-23-sec1.gfx-24-sec1 h1 span{
+font-size: .8em;
+}
+.gfx-23-sec1.gfx-24-sec1 img{
+margin-bottom: -10em;
+}
+.gfx-23-sec1.gfx-24-sec1 .gfx-23-sec1-inner button{
+background: linear-gradient(#F92D2D, #960E0E);
+text-transform: uppercase;
+font-size: 2.5em;
+padding: .3em 1em;
+margin-bottom: 1.6em;
+margin-top: 1em;
+}
+.gfx-23-sec1.gfx-24-sec1 .gfx-23-sec1-inner button:hover{
+background: linear-gradient(#960E0E, #F92D2D);
+}
+.gfx-24-sec1-inner{
+max-width: 35em;
+margin: auto;
+color: #fff;
+margin-top: .5em;
+}
+.gfx-24-sec1-inner i{
+font-size: 3.5em;
+}
+.gfx-24-sec1-inner p{
+text-align: left;
+padding-left: .5em;
+color: #FF0F14;
+font-size: 1.05em;
+}
+.gfx-23-sec2.gfx-24-sec2 .gfx-23-sec2-inner1{
+text-align: right;
+}
+.gfx-23-sec2.gfx-24-sec2 .gfx-23-sec2-inner1 ol{
+list-style: none;
+}
+.gfx-23-sec2.gfx-24-sec2 .gfx-23-sec2-inner2 ol{
+list-style: none;
+padding-left:3em;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+i.fa-brands.fa-x-twitter {
+    font-size: 2.4rem;
+    color: #fff;
+}
+@media(max-width: 767px){
+i.fa-brands.fa-x-twitter {
+    font-size: 1.4rem;
+    color: #fff;
+}
+}
+/*********************PopUp SignUp*******************/
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: #fff0!important; /*var(--bs-modal-bg);*/
+    background-clip: padding-box;
+    border: none!important; /*var(--bs-modal-border-width) solid var(--bs-modal-border-color);*/
+    border-radius: unset!important; /*var(--bs-modal-border-radius);*/
+    outline: 0;
+}
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: var(--bs-modal-padding);
+    background-color: rgb(255 255 255 / 1)!important; /*var(--bs-modal-bg)!important;*/
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color)!important;
+    border-radius: var(--bs-modal-border-radius)!important;
+}
+.modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 7px 0!important;
+    border-bottom: none!important;
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+}
+.responsive-iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+.btn-close {
+    background-image: url(../../../images/download.svg)!important;
+}
+.OfferScroller_light__U4xcm {
+    background-image: url(../images/arrow--dark.svg);
+    border-color: #333;
+}
+.OfferScroller_arrow__NXnMx {
+    animation: OfferScroller_bounce__LsiGv .55s infinite alternate;
+    background-color: transparent;
+    background-position: center 15px;
+    background-repeat: no-repeat;
+    background-size: 18px 11px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    bottom: 0;
+    cursor: pointer;
+    height: 40px;
+    left: 50%;
+    margin-left: -20px;
+    outline: none;
+    position: fixed;
+    transition: background-color .2s,background-image .2s,border-color .2s;
+    width: 40px;
+    z-index: 2;
+}
+@keyframes OfferScroller_bounce__LsiGv {
+    0% {
+        transform: translateY(-30px)
+    }
+
+    to {
+        transform: translateY(-40px)
+    }
+}
+.boton-flotante.clic-en-seccion2 {
+    left: 94%!important;
+    bottom: 12px;
+    margin-left: unset;
+    animation: none;
+    /*transform: rotate(180deg);*/
+}
+.boton-flotante.end-page{
+    left: 94%!important;
+    bottom: 12px;
+    margin-left: unset;
+    animation: none;
+    transform: rotate(180deg); 
+}

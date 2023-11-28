@@ -1,0 +1,1705 @@
+.visible-xs{
+	display: none !important;
+}
+.hidden-xs{
+	display: block !important;
+}
+
+.visible-xs1{
+	display: none !important;
+}
+.hidden-xs1{
+	display: block !important;
+}
+
+
+@media(max-width: 1650px){
+    .navbar-d.gfx-46-navbar .d-btn{
+font-size: .6rem !important;
+margin-left: .4rem;
+}
+.navbar-d.gfx-46-navbar .d-btn span{
+font-size: .9rem;
+}
+.navbar-d.gfx-46-navbar .gfx-46-menu ul li {
+    margin-right: 1rem;
+}
+.navbar-d.gfx-46-navbar .gfx-46-menu ul li a{
+font-size: 1rem;
+}
+}
+
+@media(max-width: 1600px){
+    .navbar-d.gfx-36-nav .d-btn-a button {
+    font-size: 1.8vw;
+}
+.navbar-d.gfx-36-nav{
+    padding-left: 1rem;
+}
+}
+
+@media(max-width: 1400px){
+	.hero-sec-inner {
+	    font-size: 1.5vw;
+	}
+	.main-wrapper1 .navbar-d p {
+    color: #fff;
+    font-size: 2vw;
+    margin: 0;
+}
+.main-wrapper1 .navbar-d .d-btn{
+font-size: .8rem;
+}
+.main-wrapper1 .navbar-d .d-btn span{
+font-size: 1rem;
+}
+.navbar-d.gfx-36-nav p{
+    font-size: 1.2vw;
+}
+.navbar-d.gfx-36-nav .step-sec {
+    width: calc(48%);
+}
+.gfx-40-hero{
+    font-size: 1.5vw;
+}
+.navbar-d.gfx-46-navbar .d-btn{
+font-size: .6rem !important;
+margin-left: .4rem;
+}
+.navbar-d.gfx-46-navbar .d-btn span{
+font-size: .8rem;
+}
+.navbar-d.gfx-46-navbar .gfx-46-menu ul li {
+    margin-right: 1rem;
+}
+.navbar-d.gfx-46-navbar .gfx-46-menu ul li a{
+font-size: 1rem;
+}
+.navbar-d.gfx-46-navbar .gfx-46-menu ul{
+margin-right: 0;
+}
+.navbar-d.gfx-46-navbar{
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.d-top-nav a img{
+margin-right:1rem;
+width: 7rem;
+}
+}
+
+
+
+@media(max-width: 1200px){
+	html, body{
+		font-size: 14px;
+	}
+	.gfx-25-sec1-inner3{
+		padding-left: 0;
+	}
+	.gfx-25-sec1-inner4 div:last-child {
+	    width: calc(100% - 5rem);
+	}
+	.gfx-25-sec1-inner2{
+		padding-left: 0;
+	}
+	.gfx-17-sec3 .d-btn {
+    box-shadow: 3px 15px 27px 17px #000;
+}
+.gfx-17-slider-inner img {
+    height: 8rem;
+}
+.gfx-17-slider .slick-list {
+    padding: 0 10rem;
+}
+.gfx-34-sec4.info2-sec4 .info-sec2-b-inner .d-flex.row .col-6:first-child p{
+	padding-left: 0.5rem;
+}
+.navbar-d.gfx-36-nav .step-sec {
+    width: calc(46%);
+}
+.gfx-40-hero{
+font-size: 1.3vw;
+}
+.gfx-40-sec1{
+font-size: 1.4vw;
+}
+.gfx-40-sec1 h2 {
+    margin-top: 0.3em;
+}
+.gfx-45-sec5-inner h6{
+    font-size: 1.05rem;
+}
+.gfx-46-sec1 {
+    font-size: 13px;
+}
+.gfx-46-sec3-inner-b h3{
+    font-size: 1.7rem;
+}
+.gfx-46-sec3-main2 p,
+.gfx-25-sec1-inner h3{
+    font-size: 1.3rem;
+}
+.navbar-d.gfx-46-navbar .gfx-46-menu ul li a {
+    font-size: .9rem;
+}
+.info1-sec4.info2-sec4 .info-sec2-b-inner .d-flex.row .col-6:first-child p{
+padding-left: .5rem;
+}
+}
+
+
+
+@media(max-width: 1024px){
+	.footer-icons ul{
+		margin: 0;
+	}
+}
+
+
+
+@media(max-width: 992px){
+	.hero-sec-inner{
+		margin-right: 0;
+		font-size: 1.3vw;
+	}
+	html, body{
+		font-size: 11px;
+	}
+	.gfx-25-sec1-inner1{
+	padding-right: 5rem;
+	}
+	.gfx-25-sec1-inner p{
+	font-size: 1.2rem;
+	}
+	.gfx-25-sec1-inner2{
+	border-right:0;
+	}
+	.gfx-25-sec1 .col-12{
+	border-bottom: 1px solid;
+	}
+	.gfx-25-sec1 .col-12:nth-child(3), .gfx-25-sec1 .col-12:nth-child(4){
+	border:0;
+	}
+	.gfx-25-sec1-inner{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	}
+	.gfx-25-sec1-inner3{
+	padding-left: 6rem;
+	}
+	.main-wrapper1 .footer .container{
+		max-width: 600px;
+	}
+	.gfx-34-sec4.info2-sec4 .info-sec2-top{
+		padding-right: 0;
+	}
+    .play-sec2.gfx-36-sec2 h4{
+        font-size: 1.2rem;
+    }
+    .gfx-45-sec2 .d-btn{
+        font-size: 3rem;
+    }
+    .gfx-45-sec2 h2 {
+    font-size: 3rem;
+}
+.gfx-45-sec2 h4{
+    font-size: 2.5rem;
+}
+.gfx-46-sec1 {
+    font-size: 10px;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3{
+    width: 50% !important;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(2){
+    border-right:  0;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(3){
+    border-bottom: 1px solid;
+    border-right: 0;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(3) .gfx-25-sec1-inner{
+    border-right: 0;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(5){
+    border-bottom: 0;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(4) .gfx-25-sec1-inner,
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(1) .gfx-25-sec1-inner{
+    border-right: 0;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(1){
+    border-right: 1px solid;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(4){
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+.info1-sec4.info2-sec4 .info-sec2-top p {
+    text-align: justify;
+    padding: 0 3.4rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+}
+
+
+
+
+@media(max-width: 900px){
+	.hero-sec-inner {
+	    font-size: 1.6vw;
+	}
+}
+
+
+
+
+
+
+@media(max-width: 767px){
+	html, body{
+		font-size: 14px;
+		overflow-x: hidden;
+	}
+	.visible-xs{
+		display: block !important;
+	}
+	.hidden-xs{
+		display: none !important;
+	}
+	.step-sec{
+		display: none;
+	}
+	.footer .d-flex{
+		flex-direction: column-reverse !important;
+	}
+	.footer p{
+		margin-top: 1rem;
+	}
+	.hero-sec{
+		margin-bottom: -3px;
+	}
+	.slick-arrow {
+	    width: 1.6rem;
+	    height: 2.5rem;
+	    left: 1rem;
+	}
+	.slick-arrow.slick-next {
+	    right: 1rem;
+	}
+
+	.main-wrapper a.visible-xs{
+display: none !important;
+}
+.main-wrapper .navbar-d .d-flex{
+justify-content: space-between !important;
+}
+.main-wrapper .navbar-d{
+padding-left: 2rem;
+}
+.main-wrapper .logo{
+width: 11rem;
+}
+.main-wrapper .navbar-d{
+padding: 1rem 2rem;
+}
+.gfx-25-sele{
+margin-top: 4em;
+}
+.gfx-25-hero {
+    background-position: 100% 0;
+    padding-top: 80vw;
+}
+.gfx-25-hero:after {
+    height: 28%;
+}
+.gfx-25-hero-div{
+margin: auto;
+}
+.gfx-25-hero .container-fluid{
+font-size: .9rem;
+}
+.gfx-25-sele-cir p{
+font-size: 1.2em;
+padding: 0 1em;
+}
+.gfx-25-sele-col1{
+bottom: 87%;
+left: 10%;
+}
+.gfx-25-sele-col2{
+bottom: 97%;
+left: 39%;
+}
+.gfx-25-sele-col6{
+left: 70%;
+bottom: 87%
+}
+.gfx-25-sele-col5{
+left: 70%;
+bottom: -13%;
+}
+.gfx-25-sele-col4{
+left: 39%;
+bottom: -23%;
+}
+.gfx-25-sele-col3{
+left:10%;
+bottom: -13%;
+}
+.gfx-25-hero-inner1 .d-btn {
+    font-size: 2rem;
+    padding: 0.2rem 2rem;
+    padding-bottom: 0.5rem;
+}
+.gfx-25-hero{
+	background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-25-bg-mobile.png);
+}
+.gfx-25-sele-col1:after{
+right:-20%;
+top: 120%;
+}
+.gfx-25-sele-col2:after {
+    right: 35%;
+    top: 133%;
+}
+.gfx-25-sele-col6:after {
+    right: 105%;
+    top: 110%;
+}
+.gfx-25-sele-col3:after {
+    right: -20%;
+    top: -72%;
+}
+.gfx-25-sele-col4:after {
+    right: 36%;
+    top: -86%;
+}
+.gfx-25-sele-col5:after {
+    right: 105%;
+    top: -72%;
+}
+
+.gfx-25-sec1 .col-12:nth-child(4){
+display: none;
+}
+.gfx-25-sec1 .col-12:nth-child(3){
+order:1;
+border-bottom: 1px solid;
+border-right:0;
+}
+.gfx-25-sec1 .col-12:nth-child(2){
+order:2;
+}
+.gfx-25-sec1 .col-12:nth-child(1){
+order:3;
+border:0;
+}
+.gfx-25-sec1-inner3{
+padding-left: 1rem;
+position: relative;
+border-right:0;
+}
+.gfx-25-sec1-inner3 ul{
+position: absolute;
+right:0;
+top: calc(50% - 2.5rem);
+}
+.gfx-25-sec1-inner1{
+border:0;
+padding-left: 1rem;
+}
+.gfx-25-sec1-inner2{
+padding-left: 1rem;
+}
+.gfx-25-sec1-inner{
+padding-right: 1rem;
+}
+.gfx-25-sec1-inner ul li a{
+font-size: 2rem;
+}
+.main-wrapper a.visible-xs1{
+	display: block !important;
+}
+.gfx-25-sec2-social li img {
+    max-width: 5rem;
+    max-height: 3rem;
+}
+.gfx-25-sec2-social li {
+    margin: 0 0.2rem;
+}
+.gfx-25-sec1 .container{
+	max-width: 100%;
+}
+.gfx-6717 .footer .d-flex{
+	flex-direction: row !important;
+}
+.gfx-17-sec3 .d-btn {
+    box-shadow: 3px 11px 18px 9px #000;
+}
+.gfx-17-sec1 {
+    font-size: 1.4vw;
+}
+.gfx-17-sec1-inner {
+    margin-right: 2em;
+}
+.gfx-6717 .navbar-d {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.gfx-6717 .navbar-d .visible-xs .d-btn{
+	    position: relative;
+    background: linear-gradient(#255b36, #4bac4b);
+    border: 0.05em solid #59ca56;
+    line-height: 1;
+    padding-top: 0.3rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    box-shadow: 3px 23px 28px 20px #000;
+    font-weight: 500;
+    border-radius: .5rem;
+}
+.gfx-6717 .navbar-d .visible-xs {
+	text-align: right;
+}
+.gfx-6717 .logo{
+ width: 10rem;
+}
+.main-wrapper1 .navbar-d .justify-content-between{
+justify-content: center !important;
+}
+.main-wrapper1 .navbar-d .logo{
+width: 8rem;
+}
+.main-wrapper1 .footer .d-flex.justify-content-between{
+flex-direction: column !important;
+}
+.gfx-28-footer{
+margin-bottom: 1.5rem;
+}
+.gfx-28-footer img{
+height: 4rem;
+}
+.gfx-28-footer a:last-child img{
+margin-right:0;
+}
+.main-wrapper1 .slider-sec .slider-sec-title h2 {
+    font-size: 1.6rem;
+}
+.main-wrapper1 .slider-sec .slider-sec-title h2 span:after {
+    top: 0.4rem;
+    bottom: 0.3rem;
+}
+.main-wrapper1 .hero-sec{
+	background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-28-bg-mb.png);
+}
+.main-wrapper1 .hero-sec-inner {
+    margin-top: 0;
+    font-size: 2.8vw;
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+}
+.main-wrapper1 .hero-sec-inner h5{
+text-align: center;
+}
+.main-wrapper1 .hero-sec .container{
+	max-width: 100%;
+}
+.main-wrapper1 .hero-sec {
+    min-height: 196vw;
+    padding:  0 !important;
+    align-items: flex-end;
+    padding-bottom: 16vw !important;
+}
+.gfx-25-hero.gfx-29-hero{
+	background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-29-bg.png);
+	padding-top: 0vw;
+}
+.gfx-29-sec2-inner.b-xs-0:after{
+	display: none;
+}
+.gfx-29-sec2-inner{
+	margin-bottom: 4rem;
+}
+.gfx-29-sec2 {
+    background-size: 193%;
+    background-position: 57% -13%;
+    background-repeat: no-repeat;
+}
+.gfx-29-sec2-inner1{
+	margin-top: 0;
+}
+.info-sec2-botom.d-flex{
+flex-direction: column;
+align-items: center;
+}
+.info-sec2-b-inner{
+max-width: 100%;
+}
+.info-sec2-botom{
+position: relative;
+}
+.info-sec2-b-img2{
+position: absolute;
+top:-18rem;
+width: 9rem;
+left: calc(50% - 4rem)
+}
+.info-sec2-top {
+    margin-top: 5rem;
+}
+.info-sec2 h1 {
+    font-size: 1.2rem;
+}
+.info-sec2-b-img1 {
+    width: 7rem;
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
+.info-sec2-botom p {
+    font-size: .9rem;
+}
+.info-sec2-top p {
+    font-size: .9rem;
+}
+.info-sec2-b-inner{
+	padding-left: 1.5rem;
+}
+.d-top-nav ul{
+	display: none !important;
+}
+.navbar-d.gfx-34-nav .d-top-nav{
+margin-left: auto;
+justify-content: space-between !important;
+width: 100%;
+}
+.navbar-d.gfx-34-nav .d-top-nav img{
+max-height: 5rem;
+}
+.navbar-d.gfx-34-nav{
+position: relative;
+}
+.navbar-d.gfx-34-nav a.visible-xs{
+display: block!important;
+}
+.gfx-34-sec3-slide .slick-current.slick-active .gfx-29-sec2-inner:after{
+display: block !important
+}
+.gfx-34-sec3-slide .slick-slide .gfx-29-sec2-inner:after{
+display: none;
+}
+.gfx-34-sec3-slide .gfx-29-sec2-inner:after{
+}
+.info-sec2.gfx-34-sec4{
+position: relative;
+}
+.info-sec2.gfx-34-sec4 a.visible-xs{
+display: block !important;
+margin: auto;
+text-align: center;
+}
+.info-sec2.gfx-34-sec4 
+ .info-sec2-top{
+margin-top:0rem;
+}
+.info-sec2.gfx-34-sec4 .info-sec2-b-img1{
+top:0;
+left:0;
+width: 5rem;
+}
+.info-sec2.gfx-34-sec4 h1{
+font-size: 1.3rem;
+}
+.info-sec2.gfx-34-sec4 h1 span{
+font-size: 1.2rem;
+}
+.info-sec2.gfx-34-sec4 .info-sec2-b-img2{
+position: relative;
+top:0;
+width: 6rem;
+margin:0;
+left:initial;
+margin-top: 1rem;
+}
+.info-sec2.gfx-34-sec4 
+ .info-sec2-botom.d-flex{
+flex-direction: column;
+}
+.gfx-29-sec1.gfx-34-sec2 {
+    font-size: 3.2vw;
+}
+.gfx-29-sec1.gfx-34-sec2 .gfx-29-sec1-inner1{
+margin-top: 0;
+}
+.gfx-29-sec1.gfx-34-sec2 .gfx-29-sec1-inner2{
+margin-left: 7.9em;
+}
+.gfx-29-sec1.gfx-34-sec2 .gfx-29-sec1-inner3{
+margin-left: 8em;
+margin-top: 1.5em
+}
+.gfx-29-sec1.gfx-34-sec2{
+display: none;
+}
+.footer.d-f .d-flex.justify-content-between{
+flex-direction: column !important;
+}
+.footer.d-f .d-flex.justify-content-between ul{
+display: flex !important;
+flex-direction: row !important;
+}
+.d-f ul li img {
+    max-height: 1.6rem;
+    max-width: 2rem;
+}
+.d-f ul li {
+    margin-right: 1.3rem;
+}
+.d-f.footer p {
+    font-size: .8rem;
+}
+.d-f {
+    padding: 2rem 0;
+}
+.gfx-29-sec2.gfx-34-sec3 h1 {
+    font-size: 1.9rem;
+}
+.info-sec2.gfx-34-sec4{
+	background-image: url(../images/gfx-34-bg-mb.png);
+}
+.gfx-6735.main-wrapper .navbar-d .justify-content-between{
+justify-content: space-between !important;
+}
+.play-sec2 h2 {
+    font-size: 1.6rem;
+}
+.play-sec2 h2 b{
+display: inline-block;
+}
+.play-sec2-inner h4 {
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.play-sec2-inner1 p {
+    margin-left: 33%;
+}
+.play-sec2-inner p:last-child{
+margin-bottom: .7rem;
+}
+.play-sec2-inner2 p {
+    margin-left: 36%;
+}
+.play-sec2-inner3 p {
+    margin-left: 30%;
+}
+.real-sec3 .d-btn {
+    font-size: 1.8rem;
+    width: 25rem;
+    min-width: initial;
+    border-radius: 0.7rem;
+    max-width: 100%;
+}
+.gfx-34-sec4.info2-sec4 .info-sec2-b-inner .d-flex.row .col-6:first-child p, .gfx-34-sec4.info2-sec4 .info-sec2-b-inner .d-flex.row .col-6:last-child p{
+	margin-top: 0;
+}
+.gfx-34-sec4.info2-sec4 .info-sec2-b-img2{
+	width: 8rem;
+	margin-left: -1rem;
+}
+.gfx-34-sec4.info2-sec4 .info-sec2-top p{
+	padding: 0;
+}
+.gfx-34-sec4.info2-sec4 .info-sec2-b-inner .d-flex.row .col-6:first-child p{
+	padding-left: 0;
+}
+.gfx-34-sec4.info2-sec4 .info-sec2-b-inner .d-flex.row .col-6:first-child p,
+.gfx-34-sec4.info2-sec4 .info-sec2-b-inner .d-flex.row .col-6:last-child p{
+	font-size: .9rem;
+}
+.gfx-34-sec4.info2-sec4 .info-sec2-top{
+	padding-right: .5rem;
+}
+.gfx-34-sec4.info2-sec4 .info-sec2-b-inner{
+	padding-right: 0;
+}
+.navbar-d.gfx-36-nav .d-top-nav{
+    justify-content: space-between !important;
+}
+.navbar-d.gfx-36-nav a.visible-xs{
+    display: block !important;
+}
+.navbar-d.gfx-36-nav a.visible-xs img{
+    height: 5rem;
+    width: initial;
+    margin-right: 2rem;
+}
+.navbar-d.gfx-36-nav a:nth-child(2){
+    margin-right: auto;
+}
+.gfx-36-sec1{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-36-bg-mg.png);
+}
+.gfx-36-sec1 .get-sec1-img{
+    display: none;
+}
+.gfx-36-sec1 {
+    min-height: 138.8vw;
+    font-size: 3.8vw;
+}
+.gfx-36-sec1-inner .d-btn{
+display: none;
+}
+.gfx-36-sec1-inner{
+margin-right: 3em;
+margin-top: 1em;
+}
+.d-btn.d-btn1{
+text-transform: uppercase;
+border-radius: .3em;
+font-size: 3rem;
+padding: .3rem 3rem; 
+margin-bottom: 1.5rem;
+}
+.play-sec2.gfx-36-sec2 p br{
+display : none;
+margin-left: 0;
+}
+.play-sec2.gfx-36-sec2 p{
+margin-left:0;
+text-align: center;
+margin-bottom: 3rem;
+}
+.navbar-d.gfx-37-navbar .d-top-nav{
+justify-content: space-between !important;
+}
+.hero-sec.gfx-37-hero{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-37-bg-mb.png);
+}
+.gfx-29-sec1.gfx-37-sec1{
+    display: none;
+}
+.navbar-d.gfx-37-navbar{
+    padding: 1rem;
+}
+.gfx-37-navbar.gfx-40-navbar .d-btn{
+background: none;
+}
+.gfx-40-hero {
+    font-size: 2.3vw;
+}
+.gfx-40-hero-inner p {
+    font-size: 1.43em;
+}
+.gfx-40-hero-inner img {
+    width: 38em;
+}
+.gfx-40-hero-inner h3{
+font-size: 3em;
+margin-top: .7em;
+}
+.gfx-40-hero-inner ul {
+    padding-left: 1em;
+    font-size: 1.5em;
+    text-align: justify;
+}
+.gfx-40-sec1{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-40-bg-mb.png);
+}
+.gfx-40-sec1 {
+    min-height: 76.2vw;
+font-size: 2.6vw;
+padding-top: 21vw
+}
+.gfx-37-navbar.gfx-40-navbar .d-btn{
+margin-left: 0;
+}
+.gfx-37-navbar.gfx-40-navbar img.logo{
+    margin-right: 0;
+}
+.navbar-d.d1-navbar .d-top-nav{
+justify-content: space-between !important;
+}
+.info2-sec4.info3-sec3.info-sec2.gfx-34-sec4{
+    padding-bottom: 4rem;
+}
+.gfx-45-sec2 .d-flex{
+    flex-direction: column !important;
+    justify-content: center !important;
+    text-align: center;
+}
+.navbar-d.gfx-45-navbar .d-top-nav{
+    justify-content: space-between !important;
+}
+.navbar-d.gfx-45-navbar .d-top-nav .d-btn{
+    background:  none !important;
+}
+.navbar-d.gfx-45-navbar{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.gfx-45-sec2 .d-btn {
+    font-size: 2.2rem;
+    margin-top: 1.7rem;
+}
+.gfx-45-sec2{
+    padding:  1.5rem 0;
+}
+.gfx-45-sec2 h2 {
+    font-size: 2rem;
+}
+.gfx-45-sec2 h4 {
+    font-size: 1.5rem;
+}
+.gfx-45-sec4-inner1{
+    margin-bottom: 3rem;
+}
+.gfx-45-sec4-inner1, .gfx-45-sec4-inner2{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.gfx-45-sec4{
+    padding-bottom: 2.5rem;
+}
+.gfx-40-sec1.gfx-45-sec3{
+    padding-top: 1em;
+    font-size: 1.6vw;
+}
+.gfx-45-sec5-inner {
+    border-right: 0;
+    border-bottom: 1px solid grey;
+    padding: 2.3rem 0;
+    justify-content: center;
+    max-width: 24rem;
+    margin: auto;
+}
+.gfx-45-sec5-inner3{
+    border: 0;
+}
+.gfx-45-sec5{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-d.gfx-46-navbar{
+padding-bottom: 3rem;
+position: relative;
+}
+.navbar-d.gfx-46-navbar .d-top-nav{
+justify-content: space-between !important;
+}
+.navbar-d.gfx-46-navbar .d-btn{
+font-size: .7rem !important;
+background: none;
+border-width: 1px !important;
+}
+.navbar-d.gfx-46-navbar .gfx-46-menu ul{
+display: flex !important;
+justify-content: center
+}
+.navbar-d.gfx-46-navbar .gfx-lang-btn{
+margin-right:0;
+}
+.navbar-d.gfx-46-navbar .gfx-46-menu {
+position: absolute;
+width: 100%;
+left:0;
+bottom: 1rem;
+}
+.navbar-d.gfx-46-navbar .gfx-46-menu ul li:first-child{
+display: none;
+}
+.navbar-d.gfx-46-navbar .logo{
+margin-right:0 !important;
+}
+.gfx-46-sec1{
+font-size: 2.3vw;
+}
+.gfx-46-sec1 button{
+margin-top: .5em;
+margin-bottom: 1.2em;
+font-size: 2em;
+padding: .2em 1.3em;
+}
+.gfx-46-sec1 .container{
+max-width: 100%;
+}
+.gfx-46-sec1 .col-md-6:nth-child(2){
+padding: 0 1.5rem;
+}
+.gfx-46-sec3-main2{
+order:1;
+}
+.gfx-46-sec3-main1{
+order:2;
+}
+.gfx-46-sec3-main2 h2{
+font-size: 2.6rem;
+}
+.gfx-46-sec3-main2 img {
+    width: 12rem;
+}
+.gfx-46-sec3-main2 p{
+max-width: 19rem;
+}
+.gfx-46-sec3-main2{
+border-bottom: 2px solid #0DAC40 ;
+padding-bottom: 1.5rem;
+padding-top: 1rem;
+}
+.gfx-46-sec3-main1{
+border:0;
+}
+.gfx-46-sec3-main1 .col-md-4{
+border:0;
+border-bottom: 1px solid #c5c5c5;
+padding: 1.5rem 1.5rem;
+}
+.gfx-46-sec3-main1 .col-md-4:last-child{
+border-bottom: 1px solid #c5c5c5;
+}
+.gfx-46-sec3-inner-b{
+flex-wrap: wrap;
+}
+.gfx-46-sec3-inner-b h3 {
+    width: calc(100% - 5rem);
+    font-size: 1.6rem;
+margin-bottom: 1rem;
+}
+.gfx-46-sec3-inner-b img{
+margin-bottom: 1rem;
+}
+.gfx-46-sec3-main1 .col-md-4:nth-child(2){
+order:3;
+}
+.gfx-46-sec3-main1 .col-md-4:last-child{
+order:2;
+}
+.gfx-46-sec3-inner h4{
+font-size: 2rem;
+}
+.gfx-46-sec3-inner img{
+margin-top: 1.5rem;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(5){
+order:2;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(3){
+order:1;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(2){
+order:3;
+width: 100% !important;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(1){
+order:4;
+width: 100% !important;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(4){
+order:5;
+display: block !important;
+width: 100% !important;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(3) p{
+font-size: .8rem;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(5) h3{
+display: none;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(5) li{
+margin: .5rem;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(5) ul{
+width: 11rem;
+margin: auto;
+position: relative;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(5), .gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(1){
+border-bottom: 1px solid;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(2) h3{
+font-size: 1.6rem;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(4) p{
+font-size: 1rem;
+}
+.gfx-46-sec2{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-46-bg1-mb.png);
+    min-height: 233.9vw;
+}
+.gfx-46-sec2-r{
+    display: none;
+}
+.d-flex.gfx-46-sec2-l-d{
+flex-wrap: wrap;
+}
+.gfx-46-sec2-l-d div:first-child, .gfx-46-sec2-l-d div:last-child{
+width: 100%;
+padding:0;
+}
+.gfx-46-sec2-l-d div:last-child{
+order:1;
+}
+.gfx-46-sec2-l-d div:first-child{
+order:2;
+}
+.gfx-46-sec2{
+font-size: 2.45vw;
+align-items: end;
+}
+.d-flex.gfx-46-sec2-inner{
+padding-left: 0 !important;
+}
+.gfx-46-sec2-l{
+margin:auto;
+}
+.gfx-46-sec2-inner h4 {
+    color: #fff;
+    font-size: 2.6em;
+}
+.gfx-46-sec2-l-d p{
+font-size: 2em;
+margin-bottom: 1.5em;
+}
+.gfx-46-sec2-l-d p a{
+text-decoration: none;
+color: #fff;
+}
+.d-flex.gfx-46-sec2-l-d img{
+max-width: 80%;
+margin: auto;
+margin-top: 1.8em;
+margin-bottom: 2em;
+}
+.gfx-46-sec2-l-d button{
+font-size: 2em;
+border-radius: .2em;
+margin: auto;
+width: initial;
+margin-bottom: 1em;
+}
+.d-flex.gfx-46-sec2-l-d{
+text-align: center;
+}
+.gfx-46-sec3-inner h4 img{
+width: 1.9rem;
+margin:0;
+transition: all .2s ease;
+}
+.gfx-46-sec3-inner h4 {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.gfx-46-sec3-inner h4.active img{
+transform: rotate(180deg);
+}
+.gfx-46-sec3-main1 .col-md-4 ul{
+display: none;
+}
+.gfx-46-sec3-main1 .col-md-4:nth-child(2) .img-d1x{
+display: none;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(4) h2 img, .gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(1) h3 img{
+width: 1.4rem;
+transition: all .3s ease;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(4) h2, .gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(1) h3{
+align-items: center;
+justify-content: space-between;
+display: flex;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(1) ul, .gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(4) p{
+display: none;
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(4) h2.active img{
+transform: rotate(180deg);
+}
+.gfx-25-sec1.gfx-46-sec4 .col-lg-3:nth-child(1) h3.active img{
+transform: rotate(180deg);
+}
+.gfx-6723{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-23-bg-mb.png);
+}
+.gfx-23-nav img {
+    max-height: 12em;
+    max-width: 19em;
+    margin: 0 1.5em;
+}
+.gfx-23-nav{
+margin-bottom: 3em;
+padding-top: 2rem;
+}
+.gfx-6723{
+font-size: 1.3vw;
+background-repeat: no-repeat;
+}
+.gfx-23-sec1 h1{
+margin-bottom: 1.2em;
+}
+.gfx-23-sec1 h4 {
+    font-size: 2.79em;
+}
+.gfx-23-sec1 img{
+margin-top: -7em;
+}
+.gfx-23-sec1 h6{
+margin-top: -5.4em;
+    font-size: 1.5em;
+margin-bottom: 0em;
+}
+.gfx-23-sec2{
+padding-top: 7em;
+padding-left: 6em;
+padding-right: 6em;
+padding-bottom: 20em;
+}
+.gfx-23-sec2 h3 {
+    font-size: 3.2em;
+}
+.gfx-23-sec2-inner1 ol, .gfx-23-sec2-inner2 ol{
+padding-right:0;
+border:0;
+padding-left: 1.5em;
+}
+.gfx-23-sec2-inner2 ol{
+padding-left: 1.5em;
+}
+.gfx-23-sec2 ol{
+color: red;
+font-size: 2em;
+}
+.gfx-23-sec2 ol li p{
+font-size: 1.1em;
+}
+.footer.gfx-46-f {
+    padding: 1rem 0;
+}
+.footer.gfx-46-f p{
+    margin:0;
+}
+.gfx-23-sec2 h3{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.gfx-23-sec2 h3 img{
+width: 1em;
+margin-left: 1.5em;
+transition: all .3s ease;
+}
+.gfx-23-sec2 h3.active img{
+transform: rotate(180deg)
+}
+.gfx-23-sec1.gfx-24-sec1 h1{
+margin-bottom: 1em;
+}
+.gfx-23-sec1.gfx-24-sec1 .gfx-23-sec1-inner button{
+font-size: 3.4em;
+border-radius: .3em;
+}
+.gfx-23-sec2.gfx-24-sec2 .gfx-23-sec2-inner1{
+text-align: left;
+}
+.gfx-23-sec2.gfx-24-sec2 .gfx-23-sec2-inner2 ol{
+padding-left: 1.4em;
+}
+.gfx-24-sec1-inner.d-flex{
+    display: none !important;
+}
+.gfx-24-sec1-inner.d-flex.visible-xs{
+    display: flex !important;
+}
+.info1-sec4.info2-sec4 .info-sec2-b-img2 {
+    width: 8rem;
+    top: initial;
+    margin-top: 2rem;
+    left: -1rem;
+    margin-bottom: 5rem;
+}
+.info1-sec4.info2-sec4 h1 {
+    font-size: 1.2rem;
+}
+.info1-sec4.info2-sec4 h1 span {
+    font-size: 1.2rem;
+}
+.info1-sec4.info2-sec4 .info-sec2-b-inner .d-flex.row .col-6:first-child p,
+.info1-sec4.info2-sec4 .info-sec2-b-inner .d-flex.row .col-6:last-child p{
+    margin-top: .5rem;
+    font-size: .9rem;
+}
+.info1-sec4.info2-sec4 .info-sec2-top p {
+    text-align: justify;
+    padding: 0 0.4rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.info-sec2-top a.visible-xs{
+    display: block!important;
+}
+.info-sec2-top {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-sec2-b-img1 {
+    width: 7rem;
+    margin-top: 4rem;
+    margin-left: -1rem;
+    margin-bottom: -3rem;
+}
+}
+
+
+
+
+
+@media(max-width: 600px){
+	.visible-xs1{
+		display: block !important;
+	}
+	.hidden-xs1{
+		display: none !important;
+	}
+	.hero-sec{
+		background-image: url(../images/mb-bg.png);
+	}
+	.logo {
+	    max-width: 7.5rem;
+	}
+	.menu-btn {
+    max-width: 2.7rem;
+    cursor: pointer;
+}
+.play-sec2-inner1 p {
+    margin-left: 28%;
+}
+.play-sec2-inner2 p {
+    margin-left: 30%;
+}
+.play-sec2-inner3 p {
+    margin-left: 25%;
+}
+.bitcoin-img {
+    max-width: 3.5rem;
+}
+.hero-sec {
+    min-height: 196vw;
+    padding:  0 !important;
+    align-items: flex-end;
+    padding-bottom: 16vw !important;
+}
+.hero-sec-inner{
+	margin:  auto;
+	
+}
+.hero-sec-inner {
+    font-size: 3.6vw;
+}
+.slider-inner img {
+    height: 61vw;
+}
+.slider-inner h4 {
+    font-size: 2rem;
+}
+.footer p{
+	font-size: .6rem;
+}
+.hero-sec-inner h1 span img {
+    position: absolute;
+    width: 14vw;
+    right: -4.9vw;
+}
+.gfx-17-sec1:after{
+	background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-17-bg-mb.png);
+}
+.gfx-17-sec1-inner {
+    width: 69em;
+    margin-right: 15em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0em;
+    max-width: 100%;
+    margin-right: 0;
+}
+.gfx-17-sec1 {
+    font-size: 2.8vw;
+}
+.gfx-17-sec1-inner .d-btn {
+    margin-top: 75vw;
+    margin-bottom: 15vw;
+}
+.gfx-17-slider .slick-list {
+    padding: 0 3rem;
+}
+.gfx-17-sec1-inner1 h3 {
+    font-size: 1.5em;
+}
+.gfx-17-slider{
+	margin-top: 1rem;
+}
+.gfx-17-slider:after, .gfx-17-slider:before {
+    width: 32%;
+}
+.gfx-17-slider .slick-arrow {
+    left: 0.5rem;
+    width: 1.2rem;
+    height: 1.4rem;
+}
+.gfx-17-slider .slick-arrow.slick-next {
+    right: 0.5rem;
+}
+.gfx-17-slider{
+margin-bottom: 2rem;
+}
+.gfx-17-slider .slick-dots{
+position: absolute;
+display: flex;
+justify-content: center;
+margin: auto;
+width: 100%;
+bottom: -2rem;
+}
+.gfx-17-slider .slick-dots li button{
+font-size: 0;
+padding:0;
+border:0;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: #B5B5B5;
+margin: 0 .3rem;
+}
+.gfx-17-slider .slick-dots li.slick-active button{
+background-color: #fff;
+width: 14px;
+height: 14px;
+}
+.gfx-17-sec3 .d-btn{
+font-size: 1.2rem;
+}
+.gfx-17-sec3{
+padding-bottom: 19vw;
+}
+.gfx-6717 .footer ul li a {
+    font-size: 2rem;
+    color: #fff;
+}
+.gfx-6717 .footer ul li{
+margin-bottom: 0;
+}
+.gfx-25-hero.gfx-29-hero {
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-29-bg1-mb.png);
+    min-height: 232vw;
+}
+.gfx-29-sig {
+    position: absolute;
+    width: 43em;
+    left: 53em;
+    top: 17em;
+}
+.gfx-29-hero-inner1 {
+    margin-top: 97.5em;
+    padding-left: 9em;
+padding:0;
+text-align: center;
+}
+.gfx-29-hero-inner1 h1{
+font-size: 9em;
+}
+.gfx-29-hero-inner1 h5 {
+    text-transform: uppercase;
+    font-size: 6.8em;
+    padding-left: 0;
+}
+.gfx-29-hero-inner1 p {
+    font-size: 4.7em;
+}
+.gfx-29-inner-col{
+margin-top: 13em;
+margin-left: 3em;
+width: 90vw;
+border-radius: 1vw;
+padding-top: 5.5vw;
+}
+.gfx-29-inner-col h1{
+font-size: 6.2em;
+}
+.gfx-29-inner-col p {
+    font-size: 3.85em;
+}
+.gfx-29-inner-col h6 {
+    font-size: 4em;
+}
+.gfx-29-inner-col .d-btn {
+    font-weight: 400;
+    background: linear-gradient(#015B28, #01B037);
+    border: 2px solid #01B037;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 0.4em;
+    margin-top: 0.5em;
+    font-size: 4.7em;
+    padding-top: 0.4em;
+    border-radius: 0.2em;
+}
+.gfx-29-sec2-inner img {
+    height: 5rem;
+    margin-left: 4rem;
+}
+.gfx-29-sec2 {
+    padding: 3rem 0;
+    padding-bottom: 2.5rem;
+}
+.gfx-29-sec2 h1 {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+.gfx-29-sec2-inner h5 {
+    font-size: 1rem;
+}
+.gfx-29-sec2-inner1 .d-btn, .d-btn-dark {
+    border-radius: 0.5rem;
+}
+.gfx-29-sec3 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+    max-width: 19rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.gfx-29-sec3-col {
+    text-align: center;
+    width: 33%;
+}
+.gfx-29-sec3-inner1{
+	justify-content: center;
+}
+.gfx-29-sec3-col img {
+    height: 5rem;
+    margin-bottom: 0.5rem;
+}
+.gfx-29-sec3 h3 {
+    font-size: 1.4rem;
+}
+.gfx-29-sec2-inner h5 {
+    color: #fff;
+    padding-left: 1rem;
+}
+.gfx-29-sec2-inner ul {
+    padding-left: 1.4rem;
+}
+.d-flex.gfx-29-sec1-col{
+flex-direction: column;
+}
+.gfx-29-sec1{
+font-size: 3vw;
+background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-29-bg-mb.png);
+}
+.gfx-29-sec1{
+background-size: 100%;
+}
+.gfx-29-sec1-inner1, .gfx-29-sec1-inner2 {
+    margin-left: 9.5em;
+}
+.gfx-29-sec1-inner1{
+margin-top: 1em;
+}
+.gfx-29-sec1-inner2{
+margin-top: 2.5em
+}
+.gfx-29-sec1-inner3{
+margin-top: 3em;
+margin-left: 9.5em;
+}
+.gfx-29-sec1-inner4{
+margin-top: 4em;
+margin-left: 0;
+text-align: center;
+justify-content: center;
+margin-bottom: 4em;
+}
+.gfx-29-sec1-inner4 button{
+font-size: 2em;
+}
+.gfx-29-sec3{
+	background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-29-bg2-mb.png);
+	background-size: 100%;
+}
+.gfx-29-sec1.gfx-32-sec1 .gfx-29-sec1-inner4 {
+    margin-left: 0em;
+}
+.gfx-29-sec1.gfx-32-sec1 .gfx-29-sec1-inner2 {
+    margin-left: 7em;
+    margin-top: 1.5em;
+}
+.gfx-29-sec1.gfx-32-sec1 .gfx-29-sec1-inner4 button {
+    padding: 0.3em 0.7em;
+    font-size: 1.7em;
+}
+.d-top-nav a img {
+    width: 8rem;
+    margin-right: 2rem;
+}
+.gfx-29-sec2.gfx-32-sec3 {
+    background-position: 60% -6%;
+    background-size: 375%;
+}
+.gfx-32-hero{
+	background-image: url(../images/gfx-32-bg-mb.png);
+}
+.gfx-32-hero {
+    min-height: 189vw;
+font-size: 2.4vw;
+}
+.gfx-32-inner-col {
+    margin-top: 51em;
+    margin-right: 3em;
+}
+.gfx-29-sec1.gfx-32-sec1 {
+    font-size: 3vw;
+}
+.gfx-33-sec1 {
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-33-bg-mb.png);
+    min-height: 181vw;
+    font-size: 2.05vw;
+}
+.gfx-25-sec1{
+	padding-bottom: 0;
+	padding-top: 1rem;
+}
+.gfx-34-sec3-slide .gfx-29-sec2-inner {
+    margin-bottom: 4rem;
+    max-width: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gfx-34-sec3-slide .gfx-29-sec2-inner img{
+margin: auto;
+margin-bottom: 1rem;
+}
+.gfx-29-sec2.gfx-34-sec3 .gfx-29-sec2-inner h5{
+padding-left: 0;
+text-align: center;
+font-size: 1.2rem;
+}
+.gfx-29-sec2.gfx-34-sec3 .gfx-29-sec2-inner ul{
+padding-left: 0;
+margin-left: calc(50% - 5rem)
+}
+.gfx-29-sec2.gfx-34-sec3 .gfx-29-sec2-inner ul img{
+margin: 0 !important;
+}
+.gfx-34-sec3-slide .slick-current.slick-active .gfx-29-sec2-inner:after{
+display: none !important;
+}
+.gfx-34-sec3-slide .gfx-29-sec2-inner{
+margin-bottom: 0;
+}
+.gfx-29-sec2.gfx-34-sec3 h1 {
+    font-size: 1.5rem;
+}
+.gfx-29-sec2.gfx-34-sec3 h1 span:after{
+height: 1.4rem;
+bottom: initial;
+top:.5rem;
+width: 3px;
+left: -.5rem;
+}
+.gfx-29-sec2.gfx-34-sec3 button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+.gfx-34-sec3-slide .slick-arrow{
+	font-size: 0 !important;
+}
+.gfx-34-sec1 {
+    background-image: url(../images/gfx-34-bg1-mb.png);
+    min-height: 198vw;
+    font-size: 2.3vw;
+}
+.gfx-34-sec1-inner {
+    margin-left: 2em;
+    margin-top: 45em;
+}
+.get-sec1 {
+    background-image: url(../images/gfx-35-bg-mb.png);
+    min-height: 139vw;
+}
+.get-sec1{
+font-size: 2.1vw;
+}
+.get-sec1-inner{
+text-align: center;
+    width: 46em;
+margin-top: 4em
+}
+.get-sec1-inner p br{
+display: none;
+}
+.get-sec1-img{
+display: none;
+}
+.get-sec1-inner button{
+display: none;
+}
+.pur-btn {
+    background-image: url(../images/gfx-35-btn-bg.png);
+    background-size: 100% 100%;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+.get-sec1.get1-sec1{
+    background-image: url(../images/gfx-41-bg-mb.png);
+        min-height: 139vw;
+}
+.get-sec1.gfx-42-sec1{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-42-bg-mb.png);
+}
+.gfx-45-sec1{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-45-bg-mb.png);
+    min-height: 164vw;
+    font-size: 2.23vw;
+}
+.gfx-45-sec1-inner {
+    margin-left: 0em;
+    margin-top: 4em;
+}
+.gfx-40-sec1.gfx-45-sec3 h2{
+font-size: 8em;
+font-weight: 600;
+margin-bottom: .5em;
+}
+.gfx-40-sec1.gfx-45-sec3 h2 span{
+font-size: 2.3em;
+font-weight: 800;
+}
+.gfx-40-sec1.gfx-45-sec3 button{
+font-size: 4.6em;
+margin-bottom: .8em;
+}
+.gfx-40-sec1.gfx-45-sec3{
+    background-image: url(https://digital.acrpoker.eu/welcome-bonus/assets/images/gfx-45-bg1-mb.png);
+    min-height: 81vw;
+}
+.navbar-d.gfx-45-navbar .logo{
+    margin-right: 0;
+}
+.navbar-d.gfx-45-navbar .d-top-nav .d-btn{
+    margin-left: 0;
+    border-width: 1px !important;
+}
+.navbar-d.gfx-45-navbar .gfx-lang-btn{
+    margin-right: .2rem;
+}
+}
