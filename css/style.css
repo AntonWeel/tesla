@@ -1903,7 +1903,7 @@ height: 2.4em;
 font-size: 2.8em;
 margin-top: .7em;
 }
-.get-sec1-inner button , .pur1-btn{
+.pur1-btn{
     background-color: transparent;
     background: linear-gradient(#009629, #00b139);
     border: 1px;;
