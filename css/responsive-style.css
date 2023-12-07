@@ -260,7 +260,7 @@ padding-left: .5rem;
 
 @media(max-width: 767px){
 	html, body{
-		font-size: 14px;
+		
 		overflow-x: hidden;
 	}
 	.visible-xs{
