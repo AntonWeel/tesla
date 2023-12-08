@@ -191,13 +191,23 @@ right: -1.9vw;
 .d-btn{
 color: #fff;
     border: 0;
-    border-radius: 2.3vw;
+    border-radius: 0.3vw;
     background: linear-gradient(#009629, #00b139);
     font-size: 2rem;
     padding: .1rem 1.3rem;
     font-weight: 700;
 padding-bottom: .2rem;
 }
+.d2-btn{
+    color: #fff;
+        border: 0;
+        border-radius: 25px;
+        background: linear-gradient(#009629, #00b139);
+        font-size: 2rem;
+        padding: .1rem 1.3rem;
+        font-weight: 700;
+    padding-bottom: .2rem;
+    }
 .d1-btn{
     color: #fff;
         border: 0;
