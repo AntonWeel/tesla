@@ -208,6 +208,16 @@ padding-bottom: .2rem;
         font-weight: 700;
     padding-bottom: .2rem;
     }
+    .d3-btn{
+        color: #fff;
+            border: 0;
+            border-radius: 25px;
+            background: linear-gradient(#009629, #00b139);
+            font-size: 3rem;
+            padding: .1rem 1.3rem;
+            font-weight: 700;
+        padding-bottom: .2rem;
+        }
 .d1-btn{
     color: #fff;
         border: 0;
