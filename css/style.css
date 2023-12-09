@@ -221,7 +221,8 @@ padding-bottom: .2rem;
         .d4-btn{
             color: #fff;
                 border: 0;
-                border-radius: 85px;
+                max-width: 70%;
+                border-radius: 105px;
                 background: linear-gradient(#00962800, #00b13800);
                 font-size: 3rem;
                 padding: .1rem 1.3rem;
