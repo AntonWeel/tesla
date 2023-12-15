@@ -221,7 +221,7 @@ padding-bottom: .2rem;
         .d4-btn{
             color: #fff;
                 border: 0;
-                max-width: 70%;
+                max-width: 80%;
                 border-radius: 105px;
                 background: linear-gradient(#00962800, #00b13800);
                 font-size: 3rem;
@@ -229,6 +229,17 @@ padding-bottom: .2rem;
                 font-weight: 700;
             padding-bottom: .2rem;
             }
+            .d5-btn{
+                color: #fff;
+                    border: 0;
+                    max-width: 40%;
+                    border-radius: 105px;
+                    background: linear-gradient(#00962800, #00b13800);
+                    font-size: 3rem;
+                    padding: .1rem 1.3rem;
+                    font-weight: 700;
+                padding-bottom: .2rem;
+                }
 .d1-btn{
     color: #fff;
         border: 0;
