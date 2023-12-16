@@ -188,6 +188,7 @@ position: absolute;
 width: 5vw;
 right: -1.9vw;
 }
+
 .d-btn{
 color: #fff;
     border: 0;
@@ -221,7 +222,7 @@ padding-bottom: .2rem;
         .d4-btn{
             color: #fff;
                 border: 0;
-                max-width: 50%;
+                max-width: 80%;
                 border-radius: 105px;
                 background: linear-gradient(#00962800, #00b13800);
                 font-size: 3rem;
@@ -232,7 +233,7 @@ padding-bottom: .2rem;
             .d5-btn{
                 color: #fff;
                     border: 0;
-                    max-width: 50%;
+                    max-width: 80%;
                     border-radius: 105px;
                     background: linear-gradient(#00962800, #00b13800);
                     font-size: 3rem;
@@ -240,6 +241,17 @@ padding-bottom: .2rem;
                     font-weight: 700;
                 padding-bottom: .2rem;
                 }
+                .d6-btn{
+                    color: #fff;
+                        border: 0;
+                        max-width: 100%;
+                        border-radius: 105px;
+                        background: linear-gradient(#00962800, #00b13800);
+                        font-size: 3rem;
+                        padding: .1rem 1.3rem;
+                        font-weight: 700;
+                    padding-bottom: .2rem;
+                    }
 .d1-btn{
     color: #fff;
         border: 0;
