@@ -3,6 +3,25 @@ body, html{
     font-size: 16px;
     font-family: margin-mvb, sans-serif;
 }
+.animate-reduce {
+
+	animation: animate_reduce 2s infinite;
+}
+.animate-reduce:hover {
+	animation: none;
+}
+ 
+@keyframes animate_reduce {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(0.95, 0.95, 0.95);
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
 ul, ol{
     list-style: none;
     padding:0;
