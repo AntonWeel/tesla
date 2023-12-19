@@ -260,6 +260,8 @@ padding-bottom: .2rem;
                     font-weight: 700;
                 padding-bottom: .2rem;
                 transform: rotateY(50deg);
+                cursor: pointer;
+                transition: transform 1s;
                 }
                 .d6-btn{
                     color: #fff;
