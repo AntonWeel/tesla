@@ -252,7 +252,7 @@ padding-bottom: .2rem;
             .d5-btn{
                 color: #fff;
                     border: 0;
-                    max-width: 80%;
+                    max-width: 100%;
                     border-radius: 10px;
                     background: linear-gradient(#00962800, #00b13800);
                     font-size: 3rem;
@@ -271,7 +271,7 @@ padding-bottom: .2rem;
     display: block; 
   }
   .hover-image-scale img:hover {
-    transform: scale(1.2); /* Увеличиваем масштаб */
+    transform: scale(2.2); /* Увеличиваем масштаб */
   }
                 .d6-btn{
                     color: #fff;
