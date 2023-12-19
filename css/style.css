@@ -259,9 +259,7 @@ padding-bottom: .2rem;
                     padding: .1rem 1.3rem;
                     font-weight: 700;
                 padding-bottom: .2rem;
-                transform: scale(1.2);
-                cursor: pointer;
-                transition: transform 1s;
+                
                 }
                 .d6-btn{
                     color: #fff;
