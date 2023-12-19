@@ -261,6 +261,18 @@ padding-bottom: .2rem;
                 padding-bottom: .2rem;
                 
                 }
+
+.hover-image-scale {
+    display: inline-block; 
+    overflow: hidden; /* Скрываем всё за контуром */
+  }
+  .hover-image-scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; 
+  }
+  .hover-image-scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+  }
                 .d6-btn{
                     color: #fff;
                         border: 0;
