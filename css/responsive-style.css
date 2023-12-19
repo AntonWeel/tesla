@@ -1656,13 +1656,8 @@ display: none;
 .get-sec1-inner button{
 display: none;
 }
-.pur-btn {
-    background-image: url(../images/gfx-35-btn-bg.png);
-    background-size: 100% 100%;
-    font-size: 2.5rem;
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-}
+
+
 .get-sec1.get1-sec1{
     background-image: url(../images/gfx-41-bg-mb.png);
         min-height: 139vw;
