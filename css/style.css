@@ -10,6 +10,24 @@ body, html{
 .animate-reduce:hover {
 	animation: none;
 }
+.animate-reduce2 {
+
+	animation: animate_reduce 2s infinite;
+}
+.animate-reduce2:hover {
+	animation: none;
+}
+@keyframes animate-reduce2 {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
  
 @keyframes animate_reduce {
 	0% {
