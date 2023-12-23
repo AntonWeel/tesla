@@ -1970,7 +1970,7 @@ font-size: 1.05rem;
 .get-sec1{
     background-image: url(../images/gfx-35-bg.png);
     
-        animation: animate_reduce 2s infinite;
+    background-image: animate_reduce 2s infinite;
     }
         .get-sec1:hover {
         animation: none;
