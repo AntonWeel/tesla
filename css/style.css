@@ -256,6 +256,34 @@ padding-bottom: .2rem;
             font-weight: 700;
         padding-bottom: .2rem;
         }
+        .animate-gradient {
+            height: 72px;
+            line-height: 72px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 22px;
+            padding: 20px;
+            text-align: center;
+            color: #FFFFFF;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: animate_gradient 5s ease infinite;
+          }
+          .animate-gradient:hover {
+            animation: none;
+          }
+          
+          @keyframes animate_gradient {
+            0% {
+              background-position: 0% 50%;
+            }
+            50% {
+              background-position: 100% 50%;
+            }
+            100% {
+              background-position: 0% 50%;
+            }
+          }
         .d4-btn{
             color: #fff;
                 border: 0;
