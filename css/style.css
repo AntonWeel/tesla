@@ -1970,22 +1970,10 @@ font-size: 1.05rem;
 .get-sec1{
     background-image: url(../images/gfx-35-bg.png);
     
-    background-image: animate_reduce 2s infinite;
+    
     }
-        .get-sec1:hover {
-        animation: none;
-    }
-    @keyframes get-sec1 {
-        0% {
-            transform: scale3d(1, 1, 1);
-        }
-        50% {
-            transform: scale3d(1.05, 1.05, 1.05);
-        }
-        100% {
-            transform: scale3d(1, 1, 1);
-        }
-}
+        
+  
 .gfx-lang-btn{
 border:0;
 background-color: transparent;
