@@ -12,12 +12,12 @@ body, html{
 }
 .animate-reduce2 {
 
-	animation: animate_reduce 2s infinite;
+	animation: animate_grow 2s infinite;
 }
 .animate-reduce2:hover {
 	animation: none;
 }
-@keyframes animate-reduce2 {
+@keyframes animate_grow {
 	0% {
 		transform: scale3d(1, 1, 1);
 	}
