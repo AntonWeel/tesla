@@ -318,7 +318,7 @@ padding-bottom: .2rem;
      
   }
   .hover-image-scale img:hover {
-    transform: scale(1.5); /* Увеличиваем масштаб */
+    transform: scale(2.5); /* Увеличиваем масштаб */
   }
                 .d6-btn{
                     color: #fff;
