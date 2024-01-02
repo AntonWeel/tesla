@@ -299,7 +299,7 @@ padding-bottom: .2rem;
             .d5-btn{
                 color: #fff;
                     border: 0;
-                    max-width: 100%;
+                    max-width: 120%;
                     border-radius: 10px;
                     background: linear-gradient(#00962800, #00b13800);
                     font-size: 3rem;

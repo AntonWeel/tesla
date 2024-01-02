@@ -1279,6 +1279,13 @@ padding-left: 1.4em;
 	.menu-btn {
     max-width: 2.7rem;
     cursor: pointer;
+    }
+    .d5-btn{
+   
+            max-width: 60%;
+            
+    }
+        
 }
 .play-sec2-inner1 p {
     margin-left: 28%;
