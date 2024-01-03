@@ -311,7 +311,7 @@ padding-bottom: .2rem;
 
 .hover-image-scale {
     display: inline-block; 
-    overflow: hidden; /* Скрываем всё за контуром */
+    margin-right: 5px;
   }
   .hover-image-scale img {
     transition: 1s; /* Время эффекта */
