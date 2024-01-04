@@ -40,6 +40,15 @@
 		document.write(d.getDate() + ' ' + month + ' ' + d.getFullYear() + ' г.');
 	};
 	</script>
+
+<script src="http://yastatic.net/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+  window.onload = function () {
+      jQuery("#user-city").text(ymaps.geolocation.city);
+  }
+</script>
+<script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+
 <script src="js/code-gtm-body.js"></script>
 <main class="main-wrapper main-wrapper1 main-wrapper2">
 
@@ -82,7 +91,7 @@
 					<div class="get-sec1-inner">
 						<a href="https://forms.gle/vA4ChJXHUzz1gRyi7"><h1 class="d1-btn animate-reduce" style="color: #7fff00;">BIGGEST</h1>
 						
-						<h3>with: Canada </h3>
+						<h3>with: </h3><div id="user-city"></div>
 					
 						
 						<p>+ 100% Earn <br>up to $2000</p> 
