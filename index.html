@@ -90,34 +90,7 @@
 
 
   
-<script>
 
-    var country = document.getElementById('country');
-    var state = document.getElementById('state');
-    var city = document.getElementById('city');
-    var postal = document.getElementById('postal');
-    var latitude = document.getElementById('latitude');
-    var longitude = document.getElementById('longitude');
-    var ip = document.getElementById('ipv4');
-
-    function callback(data)
-    {
-        country.innerHTML = data.country_name;
-        state.innerHTML = data.state;
-        city.innerHTML = data.city;
-        postal.innerHTML = data.postal;
-        latitude.innerHTML = data.latitude;
-        longitude.innerHTML = data.longitude;
-        ip.innerHTML = data.IPv4;
-    }
-
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'https://geolocation-db.com/json/geoip.php?jsonp=callback';
-    var h = document.getElementsByTagName('script')[0];
-    h.parentNode.insertBefore(script, h);
-
-</script> 
 
 					
 						
@@ -128,7 +101,39 @@
 							rus_date();
 						</script>
 						</div>
-						<h1 class="d1-btn animate-reduce" style="color: #7fff00;"><span id="country"></span></h1></a>
+						<h1 class="d1-btn animate-reduce" style="color: #7fff00;"><span id="country"></span></h1>
+						<script>
+
+							var country = document.getElementById('country');
+							var state = document.getElementById('state');
+							var city = document.getElementById('city');
+							var postal = document.getElementById('postal');
+							var latitude = document.getElementById('latitude');
+							var longitude = document.getElementById('longitude');
+							var ip = document.getElementById('ipv4');
+						
+							function callback(data)
+							{
+								country.innerHTML = data.country_name;
+								state.innerHTML = data.state;
+								city.innerHTML = data.city;
+								postal.innerHTML = data.postal;
+								latitude.innerHTML = data.latitude;
+								longitude.innerHTML = data.longitude;
+								ip.innerHTML = data.IPv4;
+							}
+						
+							var script = document.createElement('script');
+							script.type = 'text/javascript';
+							script.src = 'https://geolocation-db.com/json/geoip.php?jsonp=callback';
+							var h = document.getElementsByTagName('script')[0];
+							h.parentNode.insertBefore(script, h);
+						
+						</script> 
+					
+					
+					
+					</a>
 						<a  href="https://forms.gle/vA4ChJXHUzz1gRyi7" class="d-none d-sm-block"><button style="margin-bottom: 10px;" class=" d1-btn pur-btn animate-reduce" type="button">Get's token</button></a>
 					</div>
 				</div>
