@@ -1,0 +1,75 @@
+PRIVACY STATEMENT
+
+----
+
+ARTICLE 1 - PERSONAL INFORMATION COLLECTED
+
+When you make a purchase from our store, as part of the buying and selling process, we collect personal information that you provide to us, such as your name, address and e-mail address.
+
+When you browse our store, we also automatically obtain the Internet Protocol address (IP address) of your computer, which allows us to obtain more detailed information about the browser and operating system you are using.
+
+Email marketing (if applicable): with your permission, we may send you emails about our store, new products and other updates.
+
+
+
+ARTICLE 2 - CONSENT
+
+How do you obtain my consent?
+
+When you provide us with your personal information to complete a transaction, verify your credit card, place an order, schedule delivery, or return a purchase, we assume that you consent to the collection of your information and its use for your purposes. .
+
+If we ask you to provide us with your personal information for another reason, such as for marketing purposes, we will directly ask you for your explicit consent or give you the opportunity to opt out.
+
+How can I withdraw my consent?
+
+If, after providing us with your consent, you change your mind and no longer consent to us contacting you, collecting your information or disclosing it, you may notify us by contacting us at service.elecmassage@gmail.com.
+
+
+
+ARTICLE 3 - DISCLOSURE OF INFORMATION
+
+We may disclose your personal information if required by law or if you violate our General Terms and Conditions of Sale and Use.
+
+
+
+ARTICLE 4 - SHOPPING
+
+Our store is hosted by Shopify Inc. They provide us with an e-commerce platform that allows us to sell our services and products to you.
+
+Your data is stored in Shopify's data storage system and databases, as well as the general Shopify application. Your data is stored on a secure server protected by a firewall.
+
+Payment:
+
+If you make a purchase through a direct payment gateway, Shopify will store your credit card information. This information is encrypted in accordance with the Payment Card Industry Data Security Standard (PCI-DSS). Information regarding your purchase transaction is stored for as long as necessary to fulfill your order. Once your order is finalized, the information related to the purchase transaction will be deleted.
+
+All direct payment gateways are PCI-DSS compliant, managed by the PCI Security Standards Council, a collaborative effort between Visa, MasterCard, American Express and Discover.
+
+PCI-DSS requirements ensure that credit card information is processed securely by our store and its service providers.
+
+For more information, please review Shopify's Terms of Service here or Privacy Policy here.
+
+
+
+ARTICLE 5 - SERVICES PROVIDED BY THIRD PARTIES
+
+Generally, the third-party vendors we use will only collect, use and disclose your information to the extent necessary to provide the services they provide to us.
+
+However, some third-party service providers, such as payment gateways and other payment transaction processors, have their own privacy policies regarding the information we are required to provide to them for your purchase transactions.
+
+With respect to these providers, we recommend that you read their privacy policies carefully so that you can understand how they will handle your personal information.
+
+Keep in mind that some vendors may be located or have facilities located in a jurisdiction other than yours or ours. Therefore, if you choose to conduct a transaction that requires the services of a third-party vendor, your information may be governed by the laws of the jurisdiction in which that vendor is located or the laws of the jurisdiction in which its facilities are located.
+
+For example, if you are located in Canada and your transaction is processed by a payment gateway located in the United States, your information used to complete the transaction may be disclosed under U.S. law, including the Patriot Act.
+
+Once you leave our store website or are redirected to a third-party website or application, you are no longer subject to this Privacy Policy or the General Terms of Sale and Use.
+
+Connections
+
+You may need to leave our website by clicking on certain links on our website. We are not responsible for the privacy policies of these other sites and recommend that you read their privacy policies carefully.
+
+
+
+ARTICLE 6 - SECURITY
+
+To protect your personal data, we take reasonable precautions and follow industry best practices to ensure that it is not 
