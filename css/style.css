@@ -3484,7 +3484,7 @@ i.fa-brands.fa-x-twitter {
 .btn-close {
     background-image: url(../images/download.svg)!important;
 }
-.button {
+.button1 {
     min-width: 300px;
     min-height: 60px;
     font-family: 'Nunito', sans-serif;
@@ -3520,7 +3520,7 @@ i.fa-brands.fa-x-twitter {
     transition: all .3s ease-in-out 0s;
   }
   
-  .button:hover, .button:focus {
+  .button1:hover, .button:focus {
     color: #313133;
     transform: translateY(-6px);
   }
