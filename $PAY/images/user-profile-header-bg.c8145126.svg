@@ -1,0 +1,58 @@
+<svg width="1920" height="128" viewBox="0 0 1920 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_520_33" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="128">
+<rect width="1920" height="128" fill="#13141E"/>
+</mask>
+<g mask="url(#mask0_520_33)">
+<rect width="1920" height="128" fill="#13141E"/>
+<g filter="url(#filter0_f_520_33)">
+<ellipse cx="960" cy="276" rx="960" ry="232" fill="url(#paint0_linear_520_33)"/>
+</g>
+<g filter="url(#filter1_b_520_33)">
+<path d="M1969 -212C1969 -218.075 1964.08 -223 1958 -223L1541.89 -223C1534.07 -223 1528.75 -215.063 1531.72 -207.825L1748.85 321.437L1969 543.57L1969 -212Z" stroke="url(#paint1_radial_520_33)" stroke-opacity="0.5" stroke-width="2"/>
+<path d="M1969 -212C1969 -218.075 1964.08 -223 1958 -223L1541.89 -223C1534.07 -223 1528.75 -215.063 1531.72 -207.825L1748.85 321.437L1969 543.57L1969 -212Z" stroke="url(#paint2_radial_520_33)" stroke-opacity="0.5" stroke-width="2"/>
+</g>
+<g filter="url(#filter2_b_520_33)">
+<path d="M-49 -212C-49 -218.075 -44.0751 -223 -38 -223L378.106 -223C385.93 -223 391.253 -215.063 388.283 -207.825L171.15 321.437L-49 543.57L-49 -212Z" stroke="url(#paint3_radial_520_33)" stroke-opacity="0.5" stroke-width="2"/>
+<path d="M-49 -212C-49 -218.075 -44.0751 -223 -38 -223L378.106 -223C385.93 -223 391.253 -215.063 388.283 -207.825L171.15 321.437L-49 543.57L-49 -212Z" stroke="url(#paint4_radial_520_33)" stroke-opacity="0.5" stroke-width="2"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_520_33" x="-200" y="-156" width="2320" height="864" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_520_33"/>
+</filter>
+<filter id="filter1_b_520_33" x="1487.88" y="-266" width="524.119" height="854" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="21"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_520_33"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_520_33" result="shape"/>
+</filter>
+<filter id="filter2_b_520_33" x="-92" y="-266" width="524.119" height="854" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="21"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_520_33"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_520_33" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_520_33" x1="960" y1="44" x2="960" y2="508" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C2FF" stop-opacity="0"/>
+<stop offset="1" stop-color="#68C8E6"/>
+</linearGradient>
+<radialGradient id="paint1_radial_520_33" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1747 -217) rotate(90) scale(668.5 387.209)">
+<stop stop-color="#7BF5FB"/>
+<stop offset="1" stop-color="#7BF5FB" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_520_33" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1747 546) rotate(-90) scale(385 223)">
+<stop stop-color="#7BF5FB"/>
+<stop offset="1" stop-color="#7BF5FB" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint3_radial_520_33" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(173 -217) rotate(90) scale(668.5 387.209)">
+<stop stop-color="#7BF5FB"/>
+<stop offset="1" stop-color="#7BF5FB" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint4_radial_520_33" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(173 546) rotate(-90) scale(385 223)">
+<stop stop-color="#7BF5FB"/>
+<stop offset="1" stop-color="#7BF5FB" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
