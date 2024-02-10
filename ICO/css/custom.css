@@ -46,6 +46,23 @@ line-height: 1.5;
 }
 }
 
+.animate-gradient {
+  height: 72px;
+  
+  border-radius: 55px;
+  font-size: 3rem;
+  padding: .1rem 1.3rem;
+  font-weight: 700;
+padding-bottom: .2rem;
+  text-align: center;
+  color: #FFFFFF;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: animate_gradient 5s ease infinite;
+}
+.animate-gradient:hover {
+  animation: none;
+}
 
 .t-popup__container {
 border-radius: 12px 12px 12px 12px;
