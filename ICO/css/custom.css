@@ -50,7 +50,6 @@ line-height: 1.5;
   height: 72px;
   
   border-radius: 55px;
-  font-size: 3rem;
   padding: .1rem 1.3rem;
   font-weight: 700;
 padding-bottom: .2rem;
@@ -63,7 +62,17 @@ padding-bottom: .2rem;
 .animate-gradient:hover {
   animation: none;
 }
-
+@keyframes animate_gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .t-popup__container {
 border-radius: 12px 12px 12px 12px;
 }
