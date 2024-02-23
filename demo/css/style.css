@@ -94,3 +94,141 @@ canvas{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+::-webkit-scrollbar {
+  width: 6px;
+  background: #1C1A1C;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #392CE6;
+  border-radius: 10px;
+}
+::selection {
+    background: #333133;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 639px) {
+.t-name_xl {
+font-size: 18px !important;
+line-height: 1.2;
+}
+.t-descr_xs {
+font-size: 16px !important;
+line-height: 1.5;
+}
+}
+
+@media screen and (max-width: 479px) {
+.t585__accordion {
+    width: 310px !important;
+}
+.t-col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 639px) {
+.t585__accordion {
+    width: 460px !important;
+}
+.t-col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
+
+.animate-gradient {
+  height: 72px;
+  
+  border-radius: 55px;
+  padding: .1rem 1.3rem;
+  font-weight: 700;
+padding-bottom: .2rem;
+  text-align: center;
+  color: #FFFFFF;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: animate_gradient 5s ease infinite;
+}
+.animate-gradient:hover {
+  animation: none;
+}
+@keyframes animate_gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.t-popup__container {
+border-radius: 12px 12px 12px 12px;
+}
+.t-popup__container,
+.t1014__wrapper {
+border-radius: 12px 12px 12px 12px;
+}
+.blink {
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  animation-duration: 2s;
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 2s;
+}
+ 
+@keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+ 
+@-webkit-keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+.square {
+  position: relative;
+
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+
+  
+
+  animation: 3s linear infinite rotate;
+}
+
+.pivont-point {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  color: #363636;
+  font-size: 30px;
+
+  transform: translate(-50%, -50%);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
